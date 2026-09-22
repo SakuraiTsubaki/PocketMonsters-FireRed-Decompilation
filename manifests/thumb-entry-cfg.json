@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"firered-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"}],"outputs":[{"path":"analysis/firered-jp-thumb-entry-cfg.json","sha256":"e574fa368c5518ed984d3c0681ae82396e9c9f65d01052665865e6a225eb295e"}]}
+
