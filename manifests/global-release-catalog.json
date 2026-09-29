@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/import_release_catalog.py"
+  },
+  "inputs": [
+    {
+      "repository": "SakuraiTsubaki/PocketMonsters-FireRed-Disassembly",
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    }
+  ]
+}
