@@ -1,0 +1,11 @@
+{
+  "schema_version":1,
+  "id":"firered-jp-agb-main-reconstruction",
+  "input":{"release":"BPRJ-rev0","size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","cfg":"analysis/firered-jp-thumb-entry-cfg.json"},
+  "outputs":[
+    {"path":"analysis/firered-jp-agb-main-map.json","sha256":"a2012c36f5058e6240ae3f0e2925d37f66620a48dd7ae54e977e6fb55ca17956"},
+    {"path":"src/main_loop.c","sha256":"aaf33165499f9d00431a8deb634018f152031ff6e644777fb6c2685ecc193d53"},
+    {"path":"research/agb-main-reconstruction.md","sha256":"41c41e1dc9291b6282939bcafe6fbe6e6a31f809037b2d9494c2ddd6e90ffb50"}
+  ],
+  "verification":{"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}
+}
