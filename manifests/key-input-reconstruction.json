@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "outputs": [
+    {
+      "path": "src/key_input.c",
+      "sha256": "812f09d2c1aad1fbb20c11886f4ab73786e0d4ea9c50eae12b85c8d7aee575a3"
+    },
+    {
+      "path": "analysis/firered-jp-key-input-map.json",
+      "sha256": "6ae7470c06bb3a619e346c777b1994001c75b8f6bfff3fd382a0b6992f539429"
+    },
+    {
+      "path": "research/key-input-reconstruction.md",
+      "sha256": "a05e09ea7fd8af8805426b89ebd24a1fbdff2782526e626f6281dec813a8c0c3"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
