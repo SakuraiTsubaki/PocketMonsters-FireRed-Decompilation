@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "functions": [
+    "InitIntrHandlers",
+    "SetVBlankCallback",
+    "SetHBlankCallback",
+    "SetVCountCallback",
+    "SetSerialCallback"
+  ],
+  "outputs": [
+    {
+      "path": "src/interrupt_init.c",
+      "sha256": "d0e1b47c47c5e87b8ea39fe3cf8fc658f98448332e5039042f644899dddc99d3"
+    },
+    {
+      "path": "analysis/firered-jp-interrupt-init-map.json",
+      "sha256": "c5729175c88a44f8f1b58b79cbe0755ade7fc0602951899372250864a67d6d3f"
+    },
+    {
+      "path": "research/interrupt-init-reconstruction.md",
+      "sha256": "0c7a365dc239d98b958d6f9f83ff9f4937b8d422a6b64c50576cd993ad532f02"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
