@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "function": "DoSoftReset",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "0852a8735371ed5d85fefb89a1e5a26c14dfe9742b7937ad7275741fe498b149"
+    },
+    {
+      "path": "analysis/firered-jp-do-soft-reset-cfg.json",
+      "sha256": "46dd52b1011c91bd369edc007c857e3d675f388ed018f6cbc23fc31a4fca1e35"
+    },
+    {
+      "path": "analysis/firered-jp-do-soft-reset-map.json",
+      "sha256": "073d9ddc1893021f971fa96c15a6617f45025558c7e6cd42e733f4502e4fc4f9"
+    },
+    {
+      "path": "research/do-soft-reset-reconstruction.md",
+      "sha256": "228df04223b830e9d773c7dfc249dfbcec21664e4b3df534520ca732f3472cfe"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
