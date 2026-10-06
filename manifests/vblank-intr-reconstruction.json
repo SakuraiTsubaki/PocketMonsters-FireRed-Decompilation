@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "target": {"release": "BPRJ-rev0", "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"},
+  "function": "VBlankIntr",
+  "outputs": [
+    {"path": "src/vblank_intr.c", "sha256": "89284108fcde41f535a9620f629b63cb44f36dea5a25a9f5af79eee1ef26c929"},
+    {"path": "analysis/firered-jp-vblank-intr-map.json", "sha256": "53307f6811ed72104e4e1745c30b16f92259760c2a701e05ff92353919f3cca2"},
+    {"path": "research/vblank-intr-reconstruction.md", "sha256": "8fa8094717f0d09dd8921c9a32ae51196cf1ec5bcc9f98627cd59524f575715b"}
+  ],
+  "raw_rom_bytes_included": false
+}
+
