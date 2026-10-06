@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "target": {"release": "BPRJ-rev0", "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"},
+  "functions": ["HBlankIntr", "VCountIntr", "SerialIntr"],
+  "outputs": [
+    {"path": "src/display_serial_interrupts.c", "sha256": "100272bf3d1a058ee5ab87727e93dd8299be6b8eb23746e520525818188c4109"},
+    {"path": "analysis/firered-jp-display-serial-interrupt-map.json", "sha256": "3a96d5a54dc70b3ca97cb83b433a6a5ec6c0dcccead7df549e25aa3d045a690b"},
+    {"path": "research/display-serial-interrupt-reconstruction.md", "sha256": "0c271fd63a3131a92c4babf7b419fb37345dc2a4380a311b2a43899a2d4481bc"}
+  ],
+  "raw_rom_bytes_included": false
+}
+
