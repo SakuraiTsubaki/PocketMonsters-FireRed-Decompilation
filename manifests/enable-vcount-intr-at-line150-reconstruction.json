@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "function": "EnableVCountIntrAtLine150",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/enable_vcount_intr_at_line150.c",
+      "sha256": "006ef7f449fef526663781fbc433123c007d9c8472825377d6d9fc86e15fef36"
+    },
+    {
+      "path": "analysis/firered-jp-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "7f9d5460ebea1e590935d4d0f50d6ac1e75f1e26e70a46a6c038cd9d65c7ba31"
+    },
+    {
+      "path": "analysis/firered-jp-enable-vcount-intr-at-line150-map.json",
+      "sha256": "82a0069c8c202727311c74d5705e25d15272dc43251922018df55e40d77f021c"
+    },
+    {
+      "path": "research/enable-vcount-intr-at-line150-reconstruction.md",
+      "sha256": "6cf593f4a6aef100657723df07d4aa8b05b631ac0cbeb2d06f0d45a31b3fa1a2"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
