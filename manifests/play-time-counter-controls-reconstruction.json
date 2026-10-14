@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
+    },
+    {
+      "path": "analysis/firered-jp-play-time-counter-reset-cfg.json",
+      "sha256": "fc642cb3f23308ed43fb806d4a384a542b6370b794e5425c676631a0b1d77d30"
+    },
+    {
+      "path": "analysis/firered-jp-play-time-counter-start-cfg.json",
+      "sha256": "6623d97f08ac61a8fa6930edb9d7785e138f782f78de080d67705ecfec2f3a80"
+    },
+    {
+      "path": "analysis/firered-jp-play-time-counter-stop-cfg.json",
+      "sha256": "02c0b839aefd8c2921c87f85ca98951c3fdd19eb4eaec49e653383d491e56203"
+    },
+    {
+      "path": "analysis/firered-jp-play-time-counter-set-to-max-cfg.json",
+      "sha256": "e0d4d47bcda99eaf235dfb054334b0003998a5ce1a3e0b79474b6c71748f2034"
+    },
+    {
+      "path": "analysis/firered-jp-play-time-counter-controls-map.json",
+      "sha256": "11fb1d973ef9a69d0a701aa2a75ea757debc4845120e9e40f4796070753ca3b5"
+    },
+    {
+      "path": "research/play-time-counter-controls-reconstruction.md",
+      "sha256": "44fcb7909731cfb03a0e519549ea26a5fef9b2ddcdfa9ca38b312f6e38b781a2"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

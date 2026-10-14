@@ -13,7 +13,7 @@
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e"
+      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
     },
     {
       "path": "analysis/firered-jp-play-time-counter-update-cfg.json",
@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/firered-jp-play-time-counter-update-map.json",
-      "sha256": "9ff4f3f669b6a72e40d8939dc6e4b9a475b083870e6bd4a27dcec5597a213084"
+      "sha256": "ccd3a6fdf8a2ceb42b2ebe63895986e93426edf48cecabc01c87eb06037b4169"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-
