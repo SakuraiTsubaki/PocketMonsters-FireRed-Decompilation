@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "functions": [
+    "SetTrainerId",
+    "CopyTrainerId"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_evidence.py",
+    "tool_sha256": "0bf739244be88d5fd9b18ca8412a7bfacbdcaeeaff9f5db7612522b22324a9ad"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "cdbf58c8ad0981179b2aa137af3c1159259310d8ae9b8d6ed207b0c61148089a"
+    },
+    {
+      "path": "analysis/firered-jp-set-trainer-id-cfg.json",
+      "sha256": "481c5fb660d88ad7d3d0620033ddd8b0604b4456364afa33004fa2182ad3a6b2"
+    },
+    {
+      "path": "analysis/firered-jp-copy-trainer-id-cfg.json",
+      "sha256": "ee730aab477380c4b561c668ffaa25de854ee5693b3659f55e3d0bb0d83a3996"
+    },
+    {
+      "path": "analysis/firered-jp-trainer-id-helpers-map.json",
+      "sha256": "4af7d991414e97c263371b8728eebe62ab18951c36895b1fca17b9f934dc53a1"
+    },
+    {
+      "path": "research/trainer-id-helpers-reconstruction.md",
+      "sha256": "0dec19adcecb12b016fd3c57acfe6e83b3b57fec1ce6e431bcedf03ca6aeb1b0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
