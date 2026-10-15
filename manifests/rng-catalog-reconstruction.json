@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/build_rng_catalog_evidence.py",
+    "tool_sha256": "72af44ce3a8ee14fc14808966b9e9059bd0b7dbc7db93fe58761265a9b0b8c46"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/firered-jp-rng-map.json",
+      "sha256": "9096b41e277bbdf4100d3fa5823adb498d65341d281a0d1f8fc8df4dc26e427f"
+    },
+    {
+      "path": "analysis/firered-jp-random-cfg.json",
+      "sha256": "4a496a0b902d960470f7d007a9478d34e7563e332ffb8c82bf55e8abb5e525b4"
+    },
+    {
+      "path": "analysis/firered-jp-seed-rng-cfg.json",
+      "sha256": "8bd6eaff2c1073750307e8010db19b08b08563cee6f39d949e5ca9eadd78c78c"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-rng-map.json",
+      "sha256": "212397266a0a4215054abb7e44b37b7e86a971005120b2e2d2f581825ecf329c"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-random-cfg.json",
+      "sha256": "907b609d8ad33fada2605272eb9e2e1d40f34c4d9a2ce0515354b734c67d088f"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-seed-rng-cfg.json",
+      "sha256": "5cbe505cf1e899259dde1cb218b2acc2dc0ea97fda384c598f8b5f51f1f85819"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-rng-map.json",
+      "sha256": "fec37dd630fb3484513a692b12c3555c927a0e845edbe5fce696c9c2a97336b2"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-random-cfg.json",
+      "sha256": "e97dd0d80113ceac41089018a9a05c64933b4a9284764721f0783c34383aec44"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-seed-rng-cfg.json",
+      "sha256": "c5df97b193e121e358a1b7c76829138101bb2dc16bc64aeba1f460688ae5fe3b"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-rng-map.json",
+      "sha256": "a1c95cac8ac326bad72de6d2214164d0568c9c27cf4b5889147b7ca76c9a569b"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-random-cfg.json",
+      "sha256": "c2b58143ce061ecc8c1827e2fbcb075cd65a66aee38e0ea4d84a11fcd74907cc"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-seed-rng-cfg.json",
+      "sha256": "29f2f2211cb85c5ff6502855b1176de982a6f1643828fb4a6d606a43c7f9042a"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-rng-map.json",
+      "sha256": "7f3c0b2695342a3994314369eeeb05ce006da9af8f5f611142843d666432c366"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-random-cfg.json",
+      "sha256": "7702a3d6e8b91e02f11ba5a8e845c438603f644d9cb205341de6b3430b874e7a"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-seed-rng-cfg.json",
+      "sha256": "2a4c0246ba32c865ca47e0aa48abe5d739edc7529c050407f468b5783fe9edb9"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-rng-map.json",
+      "sha256": "bf43fa5c76a5f40e81d7ac3c98d452dc7ca700ad9cb809e11b9d0c5f2dec4f70"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-random-cfg.json",
+      "sha256": "e02d627ed2a1b773fbb780db129b69c0592fb28f8c9cb86d8869639fbc6c4487"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-seed-rng-cfg.json",
+      "sha256": "6a7f307d4a93dfc1f228a7a1837368fcee017743aa6dd0e2a7c1ae0d2a461cf3"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-rng-map.json",
+      "sha256": "d5342974f08fde6f81bb253c9e02472cc17665b2ebe4d158a5d762e626e5d969"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-random-cfg.json",
+      "sha256": "cc0fa4149cda1d67cdab112a8b3f7c8bac8ddd4a2ef37e6a6803858c90b8cd4b"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-seed-rng-cfg.json",
+      "sha256": "d4c3615e5695725306a41af542ad484299bbfae4c64de62c2cf34f87343e3c90"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-rng-map.json",
+      "sha256": "cb971ed67e7899816c12a9ed1f8920e546a51354b0af45297eddb06af12e4719"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-random-cfg.json",
+      "sha256": "2832df51a7368aaad265939e7d5072e34e2a5315294cd23928393f2ea827af54"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-seed-rng-cfg.json",
+      "sha256": "d25f5560d6e9f9d186f5ff021d608135f710cfdf87b25e5f15b916af3cac0192"
+    },
+    {
+      "path": "analysis/rng-catalog-summary.json",
+      "sha256": "164a57f1f2e00717505bfd4a1fb7e81a1ea92a6418559f6b3d0dfbe58cf39e58"
+    },
+    {
+      "path": "research/rng-catalog-reconstruction.md",
+      "sha256": "fc4e23690b608ec54c2d3efc6351775b7db4c03687a1e1b411759595400ba259"
+    },
+    {
+      "path": "tests/test_rng_catalog_reconstruction.py",
+      "sha256": "f03eb9edcee28fb70ea70c1cf21bdb99280dc643e4b3dc752dfc402895004f72"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
