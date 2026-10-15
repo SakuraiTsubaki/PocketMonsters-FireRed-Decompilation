@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_evidence.py",
+    "tool_sha256": "d9f9b2fcb21f66910714eaf4cbe1aa36f6714ab11dd9c833926fa392a6cf2254"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/firered-jp-random-cfg.json",
+      "sha256": "4a496a0b902d960470f7d007a9478d34e7563e332ffb8c82bf55e8abb5e525b4"
+    },
+    {
+      "path": "analysis/firered-jp-seed-rng-cfg.json",
+      "sha256": "8bd6eaff2c1073750307e8010db19b08b08563cee6f39d949e5ca9eadd78c78c"
+    },
+    {
+      "path": "analysis/firered-jp-rng-map.json",
+      "sha256": "9096b41e277bbdf4100d3fa5823adb498d65341d281a0d1f8fc8df4dc26e427f"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "66a673f255977a22edbec75d94fe1f5cd9fc9441f3368eb29a58f2a621deb8d0"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "7cb1bc2133ad579a4d991b8b429b5479be9d9c238c0718eafeab9e96dbc15e57"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
