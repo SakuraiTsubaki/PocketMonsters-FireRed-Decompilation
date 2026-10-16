@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "origin_reference": "Japanese",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_matrix_evidence.py",
+    "tool_sha256": "299f4bbf557afb9ff052ce1792eec0da4495f1738c7f8188e45ec25f119d5d7f"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "cdbf58c8ad0981179b2aa137af3c1159259310d8ae9b8d6ed207b0c61148089a"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/firered-jp-trainer-id-helpers-map.json",
+      "sha256": "4af7d991414e97c263371b8728eebe62ab18951c36895b1fca17b9f934dc53a1"
+    },
+    {
+      "path": "analysis/firered-jp-set-trainer-id-cfg.json",
+      "sha256": "481c5fb660d88ad7d3d0620033ddd8b0604b4456364afa33004fa2182ad3a6b2"
+    },
+    {
+      "path": "analysis/firered-jp-copy-trainer-id-cfg.json",
+      "sha256": "ee730aab477380c4b561c668ffaa25de854ee5693b3659f55e3d0bb0d83a3996"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-trainer-id-map.json",
+      "sha256": "f01de776fef89f9d18429fc9f25ab0f32a20670153d96af2145fd4cd35ab0e2a"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-set-trainer-id-cfg.json",
+      "sha256": "a2c479c699116edd2c32b0c1db4e09238678cd23df2a9ac17b6478f596a35607"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-copy-trainer-id-cfg.json",
+      "sha256": "e62914ac1560f18ef842cf6460ebaa58f306edf432bf8ebf6a9172d896b8adf1"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-trainer-id-map.json",
+      "sha256": "bc192487a9728cc81ccc45e5cffaa5fed33dc1b541d8cdf174bd67f957829f44"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "040113d004587f5865199e498a3c86d705299533e324fe9f3e156139f68fb944"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "b0e632a73f070ff316cdbd0044479e79e2d76af78af1643ab856daba4a916522"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-trainer-id-map.json",
+      "sha256": "6e8eb94127b53c21c8caac60f09f6dc6c882f36169fadad50f3e50d0bded791c"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-set-trainer-id-cfg.json",
+      "sha256": "526a21f6228e947197d61f75071ad7959493f63cce8592ab385f15a2352f2917"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-copy-trainer-id-cfg.json",
+      "sha256": "991d8ac7656e88e8780c6030ad74ae4b9b716060bcc6eb3e97fb9786fa68b79d"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-trainer-id-map.json",
+      "sha256": "1237ad86ffe885ff002a87f1007bb03f3979d1ea8bd075a8fe92b611462c032e"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "ffecec7ca995fe2782fab0e95cf8829301476ec643a77af2c39b26844339b2e3"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "66e6728d7141079a502d0f09cca6293da3e5f2997eb9b449fbbcb04422b512fc"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-trainer-id-map.json",
+      "sha256": "8c5e926681be5de12054761f65eb7bbedfe0891df6fb2bdd1a29ac95ad4c7995"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "0532a05f155926add5fc0d17a3f5dc7aed6e902e1d8bb17a670ccc3533ebd35b"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "9ec7b66f0c5a4b9bcbae356a6dff95129884918b1b66918e59a4579abc014651"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-trainer-id-map.json",
+      "sha256": "60f288f63cf9c566a2794ad39918e507d1e12748a77b6d782ce6fed0bf9b2ce8"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "83e8ab4c86cccef4d6539efeda1964187d4c78f53f73305c3b1193813ca1df95"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "662c0139fbc33b37cbf869e7112a92c3893d3267779278b586236421c54ba0d0"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-trainer-id-map.json",
+      "sha256": "531d3e19f10cf7139e6092500ef7bf7a0bd4a85a9fdfb7d14b2ea7c8517dec3a"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "14008668d897cc701088973941524ae62b473af545101f6edeb5289ca40c345a"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "54b25ea22b8b783580f5655995b1e896fc0da51cb7235c1ab32ce05f97f36624"
+    },
+    {
+      "path": "analysis/trainer-id-catalog-summary.json",
+      "sha256": "a6a083f56cd513b0081ee934d0eb937b0e12239d8d556093db70647bafc8b855"
+    },
+    {
+      "path": "research/trainer-id-catalog-reconstruction.md",
+      "sha256": "4bd162fa62f76c6fa239c1b0f9acb662150aaaf597eebdb8311158f4248f29b9"
+    },
+    {
+      "path": "tests/test_trainer_id_catalog_reconstruction.py",
+      "sha256": "0ce4e0ffdadef9d246f720790208176ebccbb36a56ebbcb57b0c1e195a508b1b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
