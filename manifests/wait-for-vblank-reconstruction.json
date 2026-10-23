@@ -16,7 +16,7 @@
     },
     {
       "path": "analysis/firered-jp-wait-for-vblank-map.json",
-      "sha256": "a655712b8119a0dda1d84d46b5c75e4b4da7ae7c9b0b74aa59af27915bacf965"
+      "sha256": "844fe0f5016b8ee82451f4d3ecb541acb1257fae64fe2a2014d9860f9ca8055d"
     },
     {
       "path": "research/wait-for-vblank-reconstruction.md",
@@ -25,4 +25,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

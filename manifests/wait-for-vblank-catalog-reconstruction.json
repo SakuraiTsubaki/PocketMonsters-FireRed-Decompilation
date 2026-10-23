@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "function": "WaitForVBlank",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/wait_for_vblank_catalog.py",
+    "tool_sha256": "7b24532de6cced1166ae9962530aa3bee786e1e45b6e790b4e275ac08ef2b4ed"
+  },
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "aa1f68c9cce54545a8047ffa056be5cb142177318bcb445ab8a1e8864ddeb1c8"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "4e5873eed90d92c4ec23f923f88c32d30161c7448baafcf774334175ff71f03f"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "b848932296c4387333256692e3da1f7271f6358dc2247d7699f425ef530c5f77"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "aeb0e7defc8a56efd2fa6117b5b5b31f78486a09d9c00f2ad0cdee27747877ad"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "04db4d2b62cfad19107b6e1e3a477cf42d50d852024de69ebc3502fc0da9897a"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "6429abf73239f42ec8652783743acfc30a2e1eedebdfa2a84df3eb67b660fefb"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "5703cf7e0474592f6f753700b43d009b9f6eb997275394902fb943a0805f6e4b"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "b9813d163b3f8e6a31ca9b9ea3d518acbdfe1929279a0870a706c5b73b774f3b"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "21c46842ff3ace1828a843a5d06d36ac5fb30c6795cb077fc5d8994dbf54de4d"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "1125260f4b118e065357692bc92517fd827f96d1e007268d9be69c16dcf89780"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "b2c26c2994fcd1c0e8b838251ec283f4b0866e9891c9698d98efc5c7939004df"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "19c42ac45987819c72b4c11b2762fa79afee58b5d854e08eafa52470ed02d104"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "0ad83380d213952d7dd92456bccae2c1a52ee01fa89cf2b8476b88fe05dd13bd"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "1fd9d063e16b2b9eb42b0c483130899fa8ea771ace6de34027eec5aab0df3a64"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "8c9205cdea2d872fb9fb7546071ed50e99a8a7b8c2bec2fd087edead7d183a2f"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "5c30ed86599d2636d62443f07aa8c5ab61ea6fc7e4a43067e85d84e0c35d134b"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "2e5c20afd90e01776eb001e2501becf5d88749a5e43726665dfcaf51e0632938"
+    },
+    {
+      "path": "analysis/firered-jp-wait-for-vblank-map.json",
+      "sha256": "844fe0f5016b8ee82451f4d3ecb541acb1257fae64fe2a2014d9860f9ca8055d"
+    },
+    {
+      "path": "manifests/wait-for-vblank-reconstruction.json",
+      "sha256": "32390dbf9536157598165d584f9dbd82cc0f3d12206b2c73394ab7bbbe5df751"
+    },
+    {
+      "path": "analysis/wait-for-vblank-catalog-summary.json",
+      "sha256": "adc31c110919a9974d5875874677acf8c79de8c94bdd80812d9eaf69451feae3"
+    },
+    {
+      "path": "research/wait-for-vblank-global-reconstruction.md",
+      "sha256": "82ff932413f977fb1e6db6c14f4dee4b502ecc992bfe08da468ff01887c17a13"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_catalog.py",
+      "sha256": "e65bbb1b1cf16c0184e4c66c41c76641eac616305e3aa537d45c58eec94fced1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
