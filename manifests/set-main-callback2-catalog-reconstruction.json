@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "function": "SetMainCallback2",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/set_main_callback2_evidence.py",
+    "tool_sha256": "d20fe012046de4e64633fbb13e0c821db6d362c892b7f8d2e7461bf122e96e59"
+  },
+  "outputs": [
+    {
+      "path": "src/main_callbacks.c",
+      "sha256": "6b275b10b19ec8085c0d432f91196e1a17bfdfd06d091510ca56aef2622d7325"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "b1bd4061d8f020cdba0fd96bbccb2c21e9f9151e8a3bae7a7fdb5a372b7800f5"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-set-main-callback2-map.json",
+      "sha256": "f864d6ce987e1f8a5e37dd824b662fe877a7c932fe3b9636712751db33608813"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-set-main-callback2-cfg.json",
+      "sha256": "3c67c25811c9efebd463d900b810b876ae93a621426455a3e29b17394f412803"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-set-main-callback2-map.json",
+      "sha256": "3fcf59398b8b7a0b1c662d49c2c4088ae63869983962e8bf0cf0056702216860"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "bbb5b1b39ec99e967b34b298828a0c3a290ebb8b2401a6f52da348ba6584b8c4"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-set-main-callback2-map.json",
+      "sha256": "72942eb14e9a4d8cf72531b340a40c57204debaf95900bf9d3a0dfa8111ff1df"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-set-main-callback2-cfg.json",
+      "sha256": "68617c96b6cbf638f5cfe69a601ea1bb408186b3ff5834ca834f4a0c4eb06bee"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-set-main-callback2-map.json",
+      "sha256": "bfcc47f1fde5afa0f0d4b9bb3c9daf5f8aa41ea951e6bd5e43a7bd65532018fc"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "533b2701b70dbca483c3dc83c9bb3a4112b78ec22c1c96bc039ebe24eb8637d3"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-set-main-callback2-map.json",
+      "sha256": "1a57050e807cd421685efdbd38c60a550e05fdb1420566fc40cd9d24ac6e5fdf"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "eb94aabd98bdcf0c97d5de9dc063ebd69e1f26b6904711b3c3ab3f87a67d4dac"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-set-main-callback2-map.json",
+      "sha256": "cf52be7a5acc07895455baf5d2297893404c5f1f2b9fa510fc7333eb353821b7"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "16a14d8a545d4ccf82b0fb6a69f1cb84a2c1232fddad45bd47e7d85954b0fecb"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-set-main-callback2-map.json",
+      "sha256": "cdd9123c881078a5e61c4af80a3efa6633c77a3e5067057c983ebd3112b293f9"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "ff8e317e74cd1238f6987464d7fa0a147abfe3fe255a09e254330fa8949e5694"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-set-main-callback2-map.json",
+      "sha256": "d30163ac39ed2207e7a7d55fe4a230a2ea7917e1db1740f1c9ccdb2857fdfe43"
+    },
+    {
+      "path": "analysis/set-main-callback2-catalog-summary.json",
+      "sha256": "888f58ccb4afd3d704c221b602ee227b25f301dd3727669cab62294daaf88849"
+    },
+    {
+      "path": "research/set-main-callback2-global-reconstruction.md",
+      "sha256": "b4626fb2a28f2f6d397c5001f25a943c394f211c5f937f0f5cb68b677a6db522"
+    },
+    {
+      "path": "tests/test_set_main_callback2_catalog.py",
+      "sha256": "52f25fea65aff9d671a178327f19235a4496348ca4374b0a10882db9dd1a1b3f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
