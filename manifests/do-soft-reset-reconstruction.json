@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/firered-jp-do-soft-reset-map.json",
-      "sha256": "073d9ddc1893021f971fa96c15a6617f45025558c7e6cd42e733f4502e4fc4f9"
+      "sha256": "eb4baeef7f130d0edcdc4d71bcbd18040de795c678983a4693b5fe36356fc1ec"
     },
     {
       "path": "research/do-soft-reset-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

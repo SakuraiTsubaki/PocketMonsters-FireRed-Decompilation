@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "function": "DoSoftReset",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/do_soft_reset_catalog.py",
+    "tool_sha256": "67c8b41cf9789a0e6f5664e86978bddb51af748e62baaba899edf0d1b1e353db"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "0852a8735371ed5d85fefb89a1e5a26c14dfe9742b7937ad7275741fe498b149"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "68d13d66ca00dba030d810ffec6d7371301f11546c204ff9cc05927f3c4afd5d"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-do-soft-reset-map.json",
+      "sha256": "82269af0c7adbb15cadf94b94377e2e8223649d4daa0e4a26ce4717d44815b17"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "6a94fdc1af6fa757845915734958ef6ee1130bdedbbacf95fe76fca1102f6aec"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-do-soft-reset-map.json",
+      "sha256": "fed3ea13e8a37b0af4cce935b41d56ff8ba5d0b46c414eef5c766a42a363e98d"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "384fa06b16db905a08172da80a32b2dff0406aa18d8e9c532f4df78095149d34"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-do-soft-reset-map.json",
+      "sha256": "754ece17da733d2f50e5c069ded13b194ccad74c2f8aa435e81ece6781e89086"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "832a1376d834d26b544ddc1dfa855da2915d62e8843c20bc3ef23a63e4622627"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-do-soft-reset-map.json",
+      "sha256": "689c47c2af70569925a7b86a4c2d74448019f9fc7d6093f1e5a3dc2c1dc268c4"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "00a4e1f06560804232f8f643d00b7b619d8c17a4d85ebcc638378e3310f25e6d"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-do-soft-reset-map.json",
+      "sha256": "e55b145931b6acd0f9917fc8ffe43f0bcff94b2bdb61be5570b9cfebfbfea97f"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "779c721f0c81d51022992f667d29bc5fd8f3a25dcba9e1c0bb366ab9eb10de8c"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-do-soft-reset-map.json",
+      "sha256": "e3016200f001114a8564c6104e9a8058dee00cfd2e65ef80487fb058e497da73"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "d8f487e8aaa1b38cc970834e753e365644ffd424a5afb032d57799d4fb2a534c"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-do-soft-reset-map.json",
+      "sha256": "e2b46ca7f77ef18f92eebbc250e83eb1d15dee75b0bfd3aa9881ee5a7e0cd189"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "fd22c833a6569c89e38c2ec1bb862df8f0170c782c14e10a12039a045a358550"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-do-soft-reset-map.json",
+      "sha256": "9da23929660762a855516d5fb7c14be34eef044b0e7848c7d39fb70712a4fd81"
+    },
+    {
+      "path": "analysis/firered-jp-do-soft-reset-map.json",
+      "sha256": "eb4baeef7f130d0edcdc4d71bcbd18040de795c678983a4693b5fe36356fc1ec"
+    },
+    {
+      "path": "manifests/do-soft-reset-reconstruction.json",
+      "sha256": "fabf4d780239d11c2955030c5726219ac190af0a1f5f2156310fe3e8c281d55d"
+    },
+    {
+      "path": "analysis/do-soft-reset-catalog-summary.json",
+      "sha256": "800b9c0efee10f82e1ed18ba4bc197b9cf1a4435fbf470ac97e051a777125caf"
+    },
+    {
+      "path": "research/do-soft-reset-global-reconstruction.md",
+      "sha256": "8bff49d9221478e588ce4a5907479b811ce14dae96ae7fe2e9958bb801d62140"
+    },
+    {
+      "path": "tests/test_do_soft_reset_catalog.py",
+      "sha256": "752edcfb41d9fa43c2abcc59c05341bca88df33838d6232b0cc385a7879a8250"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

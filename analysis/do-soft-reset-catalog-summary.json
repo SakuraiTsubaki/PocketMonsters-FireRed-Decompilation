@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "function": "DoSoftReset",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "source": "src/do_soft_reset.c",
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "address": "0x080008D8",
+      "code_sha256": "fde87a2ac74016573f3855b5ec416510fc6fe181e87cd8fe1749b11638cf4755",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081C16E4",
+        "ScanlineEffect_Stop": "0x08087A48",
+        "SoftReset": "0x081C7AA4"
+      },
+      "evidence": {
+        "map": "analysis/bpr-j-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-j-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "address": "0x080008D4",
+      "code_sha256": "85ae8827e824175d0355c4599f70894b8dc4a74e1c046ee2e47f7a894e7ba777",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081C12A0",
+        "ScanlineEffect_Stop": "0x080879D8",
+        "SoftReset": "0x081C72B0"
+      },
+      "evidence": {
+        "map": "analysis/bpr-j-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-j-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "address": "0x080008D8",
+      "code_sha256": "21507febad807c3b85636abf98e173fcdae7a9e7ffdbe713b8f085c1bd382e80",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD728",
+        "ScanlineEffect_Stop": "0x08087E64",
+        "SoftReset": "0x081E3B84"
+      },
+      "evidence": {
+        "map": "analysis/bpr-e-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-e-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "address": "0x080008EC",
+      "code_sha256": "0a1f7d94ab88a2baeb7c05b1efdf44aaf5c3192694bda46700c181f6711e7f4d",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD798",
+        "ScanlineEffect_Stop": "0x08087E78",
+        "SoftReset": "0x081E3BF4"
+      },
+      "evidence": {
+        "map": "analysis/bpr-e-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-e-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "address": "0x080008E8",
+      "code_sha256": "5dca2ed13c87ed008d29cd11d2a71e52788857a5d95de543f9ae26af9b13a392",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E19C0",
+        "ScanlineEffect_Stop": "0x08087DC8",
+        "SoftReset": "0x081E7A6C"
+      },
+      "evidence": {
+        "map": "analysis/bpr-d-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-d-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "address": "0x080008D4",
+      "code_sha256": "cfd6ea2a1205b5b22773ab92bb47a56183ab4ec9001dc944e24959b7119fd4a3",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DBEFC",
+        "ScanlineEffect_Stop": "0x08087E88",
+        "SoftReset": "0x081E1FA8"
+      },
+      "evidence": {
+        "map": "analysis/bpr-f-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-f-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "address": "0x080008E8",
+      "code_sha256": "def309f50b64135e645157210d2e5e406c47c5d85fe425c74627b46ffc570d87",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DAB94",
+        "ScanlineEffect_Stop": "0x08087DB4",
+        "SoftReset": "0x081E0C40"
+      },
+      "evidence": {
+        "map": "analysis/bpr-i-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-i-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "address": "0x080008D4",
+      "code_sha256": "9cb6bc9fc688997cbefae2069f780d33f550eb1a8efc24c31a312baadf26618b",
+      "variant": "no-rtc-preserve-sio",
+      "soft_reset_mask": "0xDF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DD25C",
+        "ScanlineEffect_Stop": "0x08087E9C",
+        "SoftReset": "0x081E3308"
+      },
+      "evidence": {
+        "map": "analysis/bpr-s-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpr-s-rev0-retail-do-soft-reset-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
