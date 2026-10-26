@@ -1,25 +1,70 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
-  },
+  "game": "FireRed",
   "functions": [
     "InitKeys",
     "ReadKeys"
   ],
+  "profile": "pointer",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/key_input_catalog.py",
+    "tool_sha256": "e0db0f2f110864675f48debaaad10a4556f044e13605b081c1ce958f87bc44e5"
+  },
   "outputs": [
     {
       "path": "src/key_input.c",
-      "sha256": "812f09d2c1aad1fbb20c11886f4ab73786e0d4ea9c50eae12b85c8d7aee575a3"
+      "sha256": "3031c6c9347c282b2b90af611d9dc761fbad5972fd00644273183a96adc249a0"
     },
     {
-      "path": "analysis/firered-jp-key-input-map.json",
-      "sha256": "6ae7470c06bb3a619e346c777b1994001c75b8f6bfff3fd382a0b6992f539429"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-key-input-map.json",
+      "sha256": "9c1c734db6b5f3fcd71f841c1257db1b07618cb21a9610340e2a32ed33b5dcea"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-key-input-map.json",
+      "sha256": "151ffa61303c7c2812490a57cbc25d85184331572a1ebcfd2b47845d88064ccf"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-key-input-map.json",
+      "sha256": "9eb1ee57cd6b55dee5c1a08fc43122b9feb332d0a15decee213839665c145063"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-key-input-map.json",
+      "sha256": "e9807a940c7744cfb8da0febeed4c171a7ecda5aa5723f640d147f340f39f786"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-key-input-map.json",
+      "sha256": "16c6c1478fe7856149d6c22bb3aab10d3cf0f0079b20e4b031eccfc75eca4638"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-key-input-map.json",
+      "sha256": "e1f2dc1da27b6bfe78b97968991f8b8e74a3b922f00db6580bf3a45b1d6a7f66"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-key-input-map.json",
+      "sha256": "27722fa79068f8e871c590d490a7bda83ae3a27ea1926e5f00f7ee142325c72c"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-key-input-map.json",
+      "sha256": "1bad6f630140b08b7cf1cda5dfb60df2446fac9f5ac4b69c8b326854e43cadb3"
+    },
+    {
+      "path": "analysis/key-input-summary.json",
+      "sha256": "4bbb39f5080289d74118632ef78294a3cdc3aed10decd692477a092a2622d8f0"
     },
     {
       "path": "research/key-input-reconstruction.md",
-      "sha256": "a05e09ea7fd8af8805426b89ebd24a1fbdff2782526e626f6281dec813a8c0c3"
+      "sha256": "dcca8377cfa6298474da4cef0624963436facbf479e9fff8a196368210011a4c"
+    },
+    {
+      "path": "tests/test_key_input_reconstruction.py",
+      "sha256": "1a90fc9a209bbad400e44ea010410c7a82f2913e099a4bdf495522c031e85287"
     }
   ],
   "raw_rom_bytes_included": false
