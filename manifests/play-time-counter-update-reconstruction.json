@@ -1,31 +1,67 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
-  },
+  "game": "FireRed",
+  "profile": "pointer",
   "function": "PlayTimeCounter_Update",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
+      "sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca"
     },
     {
-      "path": "analysis/firered-jp-play-time-counter-update-cfg.json",
-      "sha256": "5fff64bdb61cd35a983575e914510cae666d69bd58180a4654876b3d5f2b8fca"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
     },
     {
-      "path": "analysis/firered-jp-play-time-counter-update-map.json",
-      "sha256": "ccd3a6fdf8a2ceb42b2ebe63895986e93426edf48cecabc01c87eb06037b4169"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "c08e537375a3ed2dba9caf283bf280898751289ab534f35794b7bde79af7c8c5"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "52d16af61168d35200f275d32816389985a7a267d3a3d50883492eddbfaf48c0"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "358624eb8b728f6ee44e503e8b0995d7174ce8ce96922deff20d838238ea19df"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "8d894934bc015cbed453f0b1555999ef05c74c62f0c0fce80a6b1e72b281d151"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "89a15c88c3e0ff39ddf28e0a16a704659a919c62719470cf7fddfe4e723ea339"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "f16fd24997780beafe4a3147581e24dfdf73f3fcf8ac220a1530e93421e52c1a"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "73f77754b22707f8db9ea8a3b00efa7e9433fea29a2d7f7007350d5c71274ed7"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "470f59b3b694573fff0bb1fb3a2b07db9e4a3c0e51de747a42bd6f97c2bccc73"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "59d37dcd89f1f2dfbd2aaf4104e6ff0a22108d7eb6eaf88c9b540da046fd1e9d"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
-      "sha256": "4e69d7b809ea64c8b3e7682500eb3831d794b9b414afa47fa49363ae31a315d0"
+      "sha256": "3fb208221d017c34fdeb392b2a895fcf7db1d88a33d30e718fdb8842a36293c5"
+    },
+    {
+      "path": "tests/test_play_time_counter_update_reconstruction.py",
+      "sha256": "1ec060c1867c283629919095058eba7afb13b606868ec57295424ca880124625"
     }
   ],
   "raw_rom_bytes_included": false
