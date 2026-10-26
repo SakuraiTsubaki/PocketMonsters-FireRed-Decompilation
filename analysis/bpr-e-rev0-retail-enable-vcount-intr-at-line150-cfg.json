@@ -3,7 +3,7 @@
   "rom_base": 134217728,
   "start_offset": 1432,
   "start_address": 134219160,
-  "scan_limit_address": 134219416,
+  "scan_limit_address": 134219200,
   "instruction_halfwords": 20,
   "range_start": 134219160,
   "range_end": 134219200,
@@ -111,7 +111,7 @@
   "returns": [
     134219198
   ],
+  "raw_halfwords_omitted": true,
   "source_size": 16777216,
-  "source_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
-  "raw_halfwords_omitted": true
+  "source_sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00"
 }

@@ -1,33 +1,99 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
-  },
+  "game": "Pokemon FireRed",
   "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/enable_vcount_intr_evidence.py",
+    "tool_sha256": "854aa045730a4230900665ceedaf92f5da85314d59d5797e0b16b4a3ea980388"
   },
   "outputs": [
     {
       "path": "src/enable_vcount_intr_at_line150.c",
-      "sha256": "006ef7f449fef526663781fbc433123c007d9c8472825377d6d9fc86e15fef36"
+      "sha256": "cba90e07e4b8862b38d123ac859bcfea424e64a796e9c29bd1119d5c26cc0619"
     },
     {
-      "path": "analysis/firered-jp-enable-vcount-intr-at-line150-cfg.json",
-      "sha256": "7f9d5460ebea1e590935d4d0f50d6ac1e75f1e26e70a46a6c038cd9d65c7ba31"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
     },
     {
-      "path": "analysis/firered-jp-enable-vcount-intr-at-line150-map.json",
-      "sha256": "82a0069c8c202727311c74d5705e25d15272dc43251922018df55e40d77f021c"
+      "path": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "298aba5e0b57eecf8c73c44c828b85d050343292af071f60c148df7dbe1a92df"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "deea4bdb8f9f1987a558bfe5f5bfb81a03af631d6a9e737a79751c637177aa33"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "4df95da32bc410db05c5586b9de98b5656e33135d6ad3c82d624c994643883fe"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "ef7b23ac4dde894ab4ff89bce8771defd581b7ccd38e79612b9680d68620a798"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "263de8577a76388fa2c039ff78f1546b4dc01bda478a89befdba9e4ce4ac9411"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "45f4a1aab1cd0a6bf892c621f2559e47ef4732d27ee434ba1d80ed2db7beb17a"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "25c10528ee6dd559c4dad4e1baa663df26a106f541db5b42862bc995f3765571"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "942f8aaa702bae42305cdcb6e0404ed9b96ccc593600f932214079cdfb48d5db"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "0486e960d951317aff955158c0bfc8c259ede7e434922f6b2293ab5cc851afdd"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "c2568c70924d7a96001c63fad146652aa643a943fecbc9e50dfd192e4fbc74d1"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "f3b2347a5ab68b2ae496f451279c6abed8a2e8bb8993647cd96866f89ed79ab5"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "286dbf79c83d728a95f2ec9f4732069a330f319f02e050966838af6e5d870176"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "f135171da3d8f87b6529d0e45154df628f2fae557ff20d0d549fb82d1cbb32f6"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "88cf92f22d989a7c914d1939b0339ae5927416ae1e41ad8a97431daa159821bb"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "3e3a3dbc4e1bd66ad6a1444217a68da1fb29f4c8d28965473c342a039b5b0b5f"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "a5d8d2f793c98304a05aa24739c401fded9b0d236b3be93a1c7021e13626d2f5"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-summary.json",
+      "sha256": "58c2ce3b1309fc44b607416bf06593caee7fa8fbb1d3bc3f8a8ea7bd95dc00a1"
     },
     {
       "path": "research/enable-vcount-intr-at-line150-reconstruction.md",
-      "sha256": "6cf593f4a6aef100657723df07d4aa8b05b631ac0cbeb2d06f0d45a31b3fa1a2"
+      "sha256": "e35e9ac5a259cb81feec5542bf779c3f9cc4e05d609f6a17d220b03dc8353824"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_at_line150_reconstruction.py",
+      "sha256": "c9981f5388ca485c8ff60ac3dcc172587847abb799573e48a87e80fb03d0b62c"
     }
   ],
   "raw_rom_bytes_included": false
 }
-
