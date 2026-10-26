@@ -1,12 +1,68 @@
 {
   "schema_version": 1,
-  "target": {"release": "BPRJ-rev0", "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"},
+  "game": "FireRed",
   "function": "VBlankIntr",
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_catalog.py",
+    "tool_sha256": "b432995737f5b4d44d4f2d57385166aed952411e2f1165aeb49f691ee5795b11"
+  },
   "outputs": [
-    {"path": "src/vblank_intr.c", "sha256": "89284108fcde41f535a9620f629b63cb44f36dea5a25a9f5af79eee1ef26c929"},
-    {"path": "analysis/firered-jp-vblank-intr-map.json", "sha256": "53307f6811ed72104e4e1745c30b16f92259760c2a701e05ff92353919f3cca2"},
-    {"path": "research/vblank-intr-reconstruction.md", "sha256": "8fa8094717f0d09dd8921c9a32ae51196cf1ec5bcc9f98627cd59524f575715b"}
+    {
+      "path": "src/vblank_intr.c",
+      "sha256": "a9eb303ddce0e34c24495819dcb36adf9bc0e21dd947b4b8d0d0388099526699"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-vblank-intr-map.json",
+      "sha256": "ab7e57429e59be6764a0ed10261bae2ddf9aee8b2cf94d4261caf9e17a852130"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-vblank-intr-map.json",
+      "sha256": "adcc5bccd5a1b47584b5aef1cb2fc047022f7bb6b0c75ccc2dc2824ee9422019"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-vblank-intr-map.json",
+      "sha256": "0d2830837d3c713e065d75a5746e3945069723e49013b0238b132ea1173abe22"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-vblank-intr-map.json",
+      "sha256": "0dec6c3903e45e42b1fb37c6ac037671fbf80b07ccdc15133dd251971abfe4ce"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-vblank-intr-map.json",
+      "sha256": "581e278ed6ccb22ffd372e31ecb38f62e659d6bb29e86216d5d72eba9c5cc551"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-vblank-intr-map.json",
+      "sha256": "47594e9f848eb4faa4c7a59041e87b62e04b8e6eca40f2505bdb83d2cc6299fc"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-vblank-intr-map.json",
+      "sha256": "0628722ce255fa89533cabd9fa5fb4b38f35ee8057ed9865aacb6e00441e9a90"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-vblank-intr-map.json",
+      "sha256": "050dddd72469cbd0a7614290629ce3870648de196d29c230abff7d68e6bde074"
+    },
+    {
+      "path": "analysis/vblank-intr-summary.json",
+      "sha256": "139af9c883f29072f1c52ea02d4a7d473c71377b4fe7c7d645f17a7fc84c1bea"
+    },
+    {
+      "path": "research/vblank-intr-reconstruction.md",
+      "sha256": "4aabe30fc4c93f711327a4206ef25faa9f7ccfeefe97bf78e03e95fdc4412586"
+    },
+    {
+      "path": "tests/test_vblank_intr_reconstruction.py",
+      "sha256": "3708adc61b6d63cf6f1a5bde94d6561733cb2f04b319867726ed248feb6b5054"
+    }
   ],
   "raw_rom_bytes_included": false
 }
-
