@@ -1,33 +1,67 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
-  },
+  "game": "FireRed",
   "function": "MapMusicMain",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/map_music_catalog.py",
+    "tool_sha256": "075b0e127192699313a618260cf0906e13374a96d80020a301a022f2644d68cd"
   },
   "outputs": [
     {
       "path": "src/map_music_main.c",
-      "sha256": "e98a408ff7496f5419298bfc27ef9988e74c125d247267b48cd84b90f0b963f6"
+      "sha256": "2ac443ed3a163fb4cfa0305551388f4ce2b08ea9404f3aa3162f941d01b6e79d"
     },
     {
-      "path": "analysis/firered-jp-map-music-main-cfg.json",
-      "sha256": "526b93df971f93c180b0775bbc78823c9a2e9fa999183ecfa6073246da0a42a0"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
     },
     {
-      "path": "analysis/firered-jp-map-music-main-map.json",
-      "sha256": "26276cf2f019dff96923480349c7fa6a6e9820ca978c9d14ec2b88705e98498a"
+      "path": "analysis/map-music-summary.json",
+      "sha256": "b530bac4cfc838804d708b552d74dec8872a784ae37fbddd5a0b352fc0c5f76c"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-map-music-main-map.json",
+      "sha256": "f290fee2e1a57588c4a6789bfd63324e6fc179b5dfa4e15664c603e3baffba19"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-map-music-main-map.json",
+      "sha256": "28afdd741cb0fc39e87e675834e4b757b045f13e40f812dece0959616c75a4c5"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-map-music-main-map.json",
+      "sha256": "d9d163bdda4dc5f33b96f0c36ae3ac365c2d4e36fe4b30c9611500403ff0801e"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-map-music-main-map.json",
+      "sha256": "c1cfbed308bd93f0739234defccad2139fcbe9683b7ab2a2869c3ac58fcc8ea2"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-map-music-main-map.json",
+      "sha256": "50afc5af2d496cd7e85a0df1e2c93172dd64ed29246daf10a4266939353357eb"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-map-music-main-map.json",
+      "sha256": "1baefc6e366b1448934f42e0a9c28b91d8aeb9df10568dc8b18d04fd2492fced"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-map-music-main-map.json",
+      "sha256": "2d0bebe5a1f804faa2f62ad3d9b34d8935bd43511d83232e67255a88d9c733f9"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-map-music-main-map.json",
+      "sha256": "825722b1e593f8316709be373d3820a3850b062c1a7ac177006722b297373175"
     },
     {
       "path": "research/map-music-main-reconstruction.md",
-      "sha256": "f6abdb6ddf285a46ee1b756e4dfe373e5092246f9a8a6e8cf85b3b7620baaaee"
+      "sha256": "a0d2a45630b9446e5aabf5a0008f4984abfd65399c85e6cf50f5101e6efada94"
+    },
+    {
+      "path": "tests/test_map_music_main_reconstruction.py",
+      "sha256": "47e4e521a4fb1e47a253c6514959288fc87c5fed39604388e640144302b41d53"
     }
   ],
   "raw_rom_bytes_included": false
 }
-
