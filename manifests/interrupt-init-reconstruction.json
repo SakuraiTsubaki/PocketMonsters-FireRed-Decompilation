@@ -1,28 +1,66 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  "game": "FireRed",
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/interrupt_init_catalog.py",
+    "tool_sha256": "5b61f7711f2714288c95e0a9f11b558438db53b82cc14a87833a197cf95c65ba"
   },
-  "functions": [
-    "InitIntrHandlers",
-    "SetVBlankCallback",
-    "SetHBlankCallback",
-    "SetVCountCallback",
-    "SetSerialCallback"
-  ],
   "outputs": [
     {
       "path": "src/interrupt_init.c",
-      "sha256": "d0e1b47c47c5e87b8ea39fe3cf8fc658f98448332e5039042f644899dddc99d3"
+      "sha256": "848156f196915d2b3bdb8450f4c9e2a2978bf2dbd5437a2ef27b0d59a9caef55"
     },
     {
-      "path": "analysis/firered-jp-interrupt-init-map.json",
-      "sha256": "c5729175c88a44f8f1b58b79cbe0755ade7fc0602951899372250864a67d6d3f"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-interrupt-init-map.json",
+      "sha256": "69b8449cd898f30590bb2ed7a96a85fb369fef466fbc7768c981cca6e0c175f8"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-interrupt-init-map.json",
+      "sha256": "7da8548eab08ba0406d1f821d9e916dd153cb2b3f7111fff08f229802dd87934"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-interrupt-init-map.json",
+      "sha256": "8141cb383d5f9ef2ace85edb90c10c30306bb15e20d40a721ebf9956a5cf0132"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-interrupt-init-map.json",
+      "sha256": "c5109ac796aa6904fc893f6096f8889bb682c618c9bba9c6c31d802de1993b36"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-interrupt-init-map.json",
+      "sha256": "c9e90371dcf55dc984d9e4f5acf76fc049b33eb43f666b59c71dafde60d13e3f"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-interrupt-init-map.json",
+      "sha256": "e7dad85a20a59cbf5e664337ec2785189b9cb22575be83c4dc3a7e6d7e918192"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-interrupt-init-map.json",
+      "sha256": "9ea4e6d9b71c7f87d64982e7be0fd6278a8653ee3fabdfcc48291c4f391222f1"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-interrupt-init-map.json",
+      "sha256": "c802404791acde852ab630ae8bb456fb24525eee2294e9c15f16e75a304d6b0a"
+    },
+    {
+      "path": "analysis/interrupt-init-summary.json",
+      "sha256": "b8179cd0b320e471d3a73e01c6465e097c76dab416589fb001afb505e00417fe"
     },
     {
       "path": "research/interrupt-init-reconstruction.md",
-      "sha256": "0c7a365dc239d98b958d6f9f83ff9f4937b8d422a6b64c50576cd993ad532f02"
+      "sha256": "8be6980e58e603d08f40f4050c1a77868a3935cf8e455860751eca74dc302e10"
+    },
+    {
+      "path": "tests/test_interrupt_init_reconstruction.py",
+      "sha256": "845a2f962843e3365d1602528ba24b84291376b08e5a57e01e5f04f6cb54fa3b"
     }
   ],
   "raw_rom_bytes_included": false
