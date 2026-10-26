@@ -1,12 +1,72 @@
 {
   "schema_version": 1,
-  "target": {"release": "BPRJ-rev0", "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"},
-  "functions": ["HBlankIntr", "VCountIntr", "SerialIntr"],
+  "game": "FireRed",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/display_interrupt_catalog.py",
+    "tool_sha256": "771f6b764d7e830e7b6556476f58c2744f5dd8d637ea0ce81498df9ebe4d5fe8"
+  },
   "outputs": [
-    {"path": "src/display_serial_interrupts.c", "sha256": "100272bf3d1a058ee5ab87727e93dd8299be6b8eb23746e520525818188c4109"},
-    {"path": "analysis/firered-jp-display-serial-interrupt-map.json", "sha256": "3a96d5a54dc70b3ca97cb83b433a6a5ec6c0dcccead7df549e25aa3d045a690b"},
-    {"path": "research/display-serial-interrupt-reconstruction.md", "sha256": "0c271fd63a3131a92c4babf7b419fb37345dc2a4380a311b2a43899a2d4481bc"}
+    {
+      "path": "src/display_serial_interrupts.c",
+      "sha256": "66a2c0145492fa82e1d7ea612f6d998f076562e7b3a701148f15370558a1165f"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "45305ed692326cc9ee535c0597bea040445525dfd4fa33205a9bee7d387fd3d4"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "b3b50ac7ce223864d119f4ce135fbe200a0e28747c3f18f1e21f687ff1148b1f"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "571e75f9269e35b7d6ff7bee6eb8d95bf0315827683a098517f9526abe949940"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "e3888198bc528c1d0485774645fa9cfdd56f60ea3b1ed5db39af141244b932a6"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "154aa57fecc68e486bb6615bdb4cae33c93fd5afb693b68abf5f7a69e81d99a5"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "96c541b527550ddb628e09cabe61638e479ecd1c2006375362f011b72ba905e9"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "5858d7d32f761a6e67f8f8b238b0a570df2fe4b890788bac52254358d626f319"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "7875704c103189beda00f4a449e22ccf976afe70b1bdaa06dd5fcd89339c9ff8"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-summary.json",
+      "sha256": "dcf626e995252cc01115bec266627bc97b695aa04ae8a6484de539229c5041ca"
+    },
+    {
+      "path": "research/display-serial-interrupt-reconstruction.md",
+      "sha256": "f0ca350262d2a9759b36e9a7b369b5cb41c80510c9c7f2afa97b0300259ca6b6"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts.py",
+      "sha256": "3a449f52133d278384658e3995cef30f27e4a4302b937ba3020de458ed3480ed"
+    }
   ],
   "raw_rom_bytes_included": false
 }
-
