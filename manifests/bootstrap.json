@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"firered-jp-bootstrap","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"}],"outputs":[{"path":"analysis/firered-jp-bootstrap.json","sha256":"08909891219e4e6bb99473872b443c7aa6df44c75fa9a61170793c4e335d2399"}]}
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "b08ce57873ce20947aed4afdb367726e6fc16db24982df40146406f6025d5db8"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-bootstrap.json",
+      "sha256": "f1cf02a08b51a696e9c7e415ee92b4e6897cc1e536e5d6c55856e1441fdc53d9"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-bootstrap.json",
+      "sha256": "e82d52e00dd265c8060d2bab1b218048d13a50f274cd9cca6883ab935625b54b"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-bootstrap.json",
+      "sha256": "c152ff34a5fcd5012fd50cac20dd95cc008ec5f4edbf48fede29491601615886"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-bootstrap.json",
+      "sha256": "a31d6541113a6106d11c389c63089f93fb58b1e0d9330f76c3ebf5278978c532"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-bootstrap.json",
+      "sha256": "dea2eecdc40fa02db5afa0620bac1706e5aa4bff64f636151db6b4639aca487e"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-bootstrap.json",
+      "sha256": "37cbdb65e184460244e99c01ddc63c19aac92a4b9f13d7db70f5d995410f5866"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-bootstrap.json",
+      "sha256": "bcd85c8e25492fc642e83be364fc49b60765316616a31b386bc169b78039e2d4"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-bootstrap.json",
+      "sha256": "33f9da2799a2a592f564061aa411c49edc4f8daf087b1066db48e48bb8962127"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "1445bbdca179c0c39f9257c0bdea8337231e70bab6bfe5723313aa478e87ad9d"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "14ba1e30518d8dd3c9634d8981bd370a2bcd14564659a502f85ea0684ff3fb76"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

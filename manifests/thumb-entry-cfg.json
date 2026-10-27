@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"firered-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"}],"outputs":[{"path":"analysis/firered-jp-thumb-entry-cfg.json","sha256":"fc4c06206208071b62a62be2ccda943c9326341fa2b31e977fc3d610a0b171f4"}]}
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "evidence_kind": "thumb-entry-cfg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "b08ce57873ce20947aed4afdb367726e6fc16db24982df40146406f6025d5db8"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "99e709d7d8984777230450141bc9c7611c20028d9a80b149dfc51d81b560ca7c"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "9241dca93102ff58d65cbeace4ebca74036930024ccddb3838341dc90c7030d7"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "fad278dd33901b5e1bbb5422f2aa9506685cce5d23d2fe437a2ee709671a0686"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "67526fa2a5a340f7d02d51b04e77dd4a9aa742fd4e926d2b84127a4d06a62b71"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "b4c1844245fe43bf34e8b02133fc539f9d91d042732e6727652e0d13055ae3c6"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "4746bfbf923d31bad31915beab7b61d6bfb6d5406ca6b2b577ea7c66da5c08f0"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "f0f65cc33efcdfda776c63820ba39675b33740b20b6d691d80573e672398ba21"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "f72ec65872687639dc6cfd0add5d2d827ddbc030e4e0cc137ba6fea2f5ac811f"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "ec7ee04e06c0acc33a27b4a3dec9729948b8f0488d727585cb7696805b910991"
+    },
+    {
+      "path": "tests/test_thumb_entry_cfg.py",
+      "sha256": "5ff4ee1e37e28e8d1de368b647056de39bdd51d7f89b72bc06c18a4cddc11377"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

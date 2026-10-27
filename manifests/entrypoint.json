@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"firered-jp-entrypoint","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_entrypoint.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"}],"outputs":[{"path":"analysis/firered-jp-entrypoint.json","sha256":"05bfc69f01b837fdd098ee6436e7d28b8a54e4acc51ab5b13995115d577adc83"},{"path":"src/rom_entry.s","sha256":"fc2388f14cbbf80efdb9d774b45c185633711fadf1f7da2f63b6625d44120b67"}]}
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "52943417ce7ccfee748789bd6b252cf3d8cfb916e1a8928e41dba857ef5bc2f5"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "b08ce57873ce20947aed4afdb367726e6fc16db24982df40146406f6025d5db8"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-entrypoint.json",
+      "sha256": "3135a230ed994688c9f244322eee9c16345f3ceacf79a8648ac604405face36b"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-entrypoint.json",
+      "sha256": "93bc5bd95b9549f3dd33cee42a47a4485a0f6615d162e5e9ecf16ff5cc8902cd"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-entrypoint.json",
+      "sha256": "07bfa55219d7252dd8a0dab1c8fa8804a39e7e590230f2e7c31ebc6a1eee6c48"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-entrypoint.json",
+      "sha256": "3d9dbe8434f10f7f5c8061f14540c01f6fc243816d0a64aad584c82e3c64db1c"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-entrypoint.json",
+      "sha256": "0d0fc0b3784160ca19ea341ad69f56e09b4437b4b201d7cc5ae5b0005c64a337"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-entrypoint.json",
+      "sha256": "3a635a1098878ce55bceb5b93266cffdab0b24df1b505fa5db3327ae0eadef34"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-entrypoint.json",
+      "sha256": "5a281c58084ee91dfab723ed965b9b28b73c91dd4dd4d869c5230674b6008725"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-entrypoint.json",
+      "sha256": "8c28b882e677e2ad3c0378201927ff15b43543e51901b9e1e44e47e2f7434323"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "9b5db3a8c7f33321a1279d80fdbb5d6f47ccda5cef58edf2926841c3c679061f"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "00bb4ea791c452d497700e80c3996a502d2d286e6eac9e1142e3d84e13cd8866"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
