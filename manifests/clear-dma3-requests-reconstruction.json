@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "function": "ClearDma3Requests",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/clear_dma3_requests_catalog.py",
+    "tool_sha256": "1e547937eb9bf62a688240b423d4690c1a5939056724f385abe4f4fca0244ab9"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/dma3_manager.c",
+      "sha256": "385464db0947c8e0f385e346098dbbc287798c6fd0dea2aa4b78aeef3e8d61d5"
+    },
+    {
+      "path": "analysis/clear-dma3-requests-summary.json",
+      "sha256": "6868b905b512a6caf24c8f4b17fd9dbf1091b28233fa96ee96a81598ac9a8771"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "c730d45ff0e4eb862d634b516a85e0262f86257a4a515034a6378050398fbd28"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-clear-dma3-requests-map.json",
+      "sha256": "397c6df7c36736fde0b318dcdcf12672924d591a2cab0484b5b9b50f18fa1319"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "da40b7e552fb6d11f42437afd9c6ae226a446e0b85ab29f438306af2ea17908c"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-clear-dma3-requests-map.json",
+      "sha256": "aab5eeaa484c4152e3c1e576d7b1ae3d147cbe5cb43e75679f3b5dde7ecbd7c9"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "705cdd6c7f8ee59cf987b3da6c974715f25548bdd46ba79c5fcee0f9fd819465"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "b74e2b691a762fd7691199a67d84fa7900b504f700a3ffee15e9109485b99826"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "51ce08138ef0d11e0d62e2ac431aa790cbd085ccefd6c94eee5efaf4709bce34"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-clear-dma3-requests-map.json",
+      "sha256": "f5f640e97ee7823f9c4086f468fd87f8d7737b6f0dfda8d18e155ee7b00a5ce9"
+    },
+    {
+      "path": "research/clear-dma3-requests-reconstruction.md",
+      "sha256": "5806d8d60294e61539b31d4635bef137ae63f8ca2dc9950c8514285033423a13"
+    },
+    {
+      "path": "tests/test_clear_dma3_requests_reconstruction.py",
+      "sha256": "1ca922a99069bc4194e66a4f6c92e49c60a39e6440964b73fd1ad72b55f20267"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
