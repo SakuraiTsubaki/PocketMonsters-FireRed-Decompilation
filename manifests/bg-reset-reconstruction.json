@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "cluster": [
+    "ResetBgs",
+    "ResetBgControlStructs",
+    "SetTextModeAndHideBgs"
+  ],
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/reset_bgs_catalog.py",
+    "tool_sha256": "7b0ddcd8f1766c561dc4ee7fb98e7ef3427b2b004354d28a8fd13c4526a03520"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/bg_reset.c",
+      "sha256": "40030efe722941b2be8e6d02182fdb0c4a8d5956b25929fa65cd10c8edc1e69b"
+    },
+    {
+      "path": "analysis/bg-reset-summary.json",
+      "sha256": "f2918add5928034715e548059ad6e3953286ec4e1682fd6e2b4cd29cf6b1280c"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-bg-reset-map.json",
+      "sha256": "aad977d3c0350ee07b50de4c717c2cf9cb7971ef8c658a3f648022eb51199f29"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-bg-reset-map.json",
+      "sha256": "e42775865f6c58381b957f82e6fdb93a41d9632479840d6506248adb869275c7"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-bg-reset-map.json",
+      "sha256": "087965db4cb558127569e674fd244f69c56adb29f962430ef7606e67b6f42b9a"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-bg-reset-map.json",
+      "sha256": "e5b2b2b51197f61048f2a62ae170ec9fcb0d904eb27732ec2b33ce5c92a4507f"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-bg-reset-map.json",
+      "sha256": "1f8e69f4e91ccfc604017864ce331a172b48a3fdc217242310f76b523e8e39dd"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-bg-reset-map.json",
+      "sha256": "e392c636c08266fb826eb3204ede7579e39d6a66e61bb8d594929c128755a3b6"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-bg-reset-map.json",
+      "sha256": "57ea00c1952645ea1c32370f22cb2cb5a10c33c6bfe73f3cd755bcd11baa3942"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-bg-reset-map.json",
+      "sha256": "e660fbd85d291dc8088bc63c0f47401a2cd9c37dd1d3d7929ca1c518d057f52d"
+    },
+    {
+      "path": "research/bg-reset-reconstruction.md",
+      "sha256": "9e73ce38fc50c4e584471b1102eb86e4db9a70dfdd94feae72d0d5a21a70dc13"
+    },
+    {
+      "path": "tests/test_bg_reset_reconstruction.py",
+      "sha256": "3475e0b55c5b8d7f293c4051c09336c480521a0d8a09a99b1e44a72955a4637d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
