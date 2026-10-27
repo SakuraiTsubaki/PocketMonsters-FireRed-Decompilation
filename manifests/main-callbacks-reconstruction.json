@@ -1,27 +1,72 @@
 {
   "schema_version": 1,
-  "id": "firered-jp-main-callbacks-reconstruction",
-  "target": {
-    "release": "BPRJ-rev0",
-    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  "game": "FireRed",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
+  ],
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/main_callback_catalog.py",
+    "tool_sha256": "cebed0fd5a611a984866fa74779d21542ebb651e415d974435158352a1c22962"
   },
   "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
     {
       "path": "src/main_callbacks.c",
       "sha256": "6b275b10b19ec8085c0d432f91196e1a17bfdfd06d091510ca56aef2622d7325"
     },
     {
-      "path": "analysis/main-callbacks-map.json",
-      "sha256": "cdab3c60be296b97942d76a0d70e933cccdff10b6f108010e7c785b0b4aebf0b"
+      "path": "analysis/main-callbacks-summary.json",
+      "sha256": "e26b9764b7d2c0f6f4cddbb9fe1a4429e3f9b3ed83b93f2680aa203274aca794"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-main-callbacks-map.json",
+      "sha256": "c672f224543b12283bf2da6c5d2fe863f80e3753bc69aa9656ba4a353bc56e61"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-main-callbacks-map.json",
+      "sha256": "912099cce659ae864486309f6e4b2165af82b99b1c2991abc8f6d2980aca8225"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-main-callbacks-map.json",
+      "sha256": "60286290642d326582fad9129725ffd384fd4b43294880c72439563531244ddd"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-main-callbacks-map.json",
+      "sha256": "1a6280cbe82b03dca6329904f265954a06a815d8c6ff7955899c08157d863009"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-main-callbacks-map.json",
+      "sha256": "cd3ef050e2a4d80140a6be064240dd70938da2f08ff45ea9dc5feb65b82b6ee5"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-main-callbacks-map.json",
+      "sha256": "437bcb0b3e6c69a651cc26b862e7bea682da21957592ed88fedaf0c6b73a71dc"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-main-callbacks-map.json",
+      "sha256": "d48e28e5074a00113492b05bbe16f109337ad28b70d23fd5a8e91120dcc6d904"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-main-callbacks-map.json",
+      "sha256": "852ce1f30dc76234296c70825c9a58aad5ddb08254d396965c28dbdd6b9b50e3"
     },
     {
       "path": "research/main-callbacks-reconstruction.md",
-      "sha256": "918cb57dee0b3e1dac3904c7e6ed55c85cfa66ba67d2b7f90ce2ea4bbe2b12fb"
+      "sha256": "d7826d980bae5016db8f7444c587d21e33da6b561945c6b5e5e683e971014246"
+    },
+    {
+      "path": "tests/test_main_callbacks_reconstruction.py",
+      "sha256": "484fb6245418b4409b7cf55e5386873b49bae06f1d3dd5cc82e054a10021e2a3"
     }
   ],
-  "verification": {
-    "test": "tests/test_main_callbacks_reconstruction.py",
-    "function_range_hashes": "analysis/main-callbacks-map.json",
-    "raw_rom_bytes_published": false
-  }
+  "raw_rom_bytes_included": false
 }
