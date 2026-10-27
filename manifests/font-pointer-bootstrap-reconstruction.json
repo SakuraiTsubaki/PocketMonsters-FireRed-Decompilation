@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "cluster": [
+    "SetDefaultFontsPointer",
+    "SetFontsPointer"
+  ],
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/font_pointer_catalog.py",
+    "tool_sha256": "0d14c7096eb8bacfe148a96ee95e53e6cbd57864aee98fbdabf264441e3eebe2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/font_pointer.c",
+      "sha256": "4d7bed8c1b34c217c6bc598f88e978c2f7ae8ac8cab8b940b33d114cf04f907e"
+    },
+    {
+      "path": "analysis/font-pointer-bootstrap-summary.json",
+      "sha256": "8c971f7f4250f091ea3b8f13c87f02fb0255aa8334b3f9862b574e435574ec35"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "6f9c64209be1e0237a7aa2e3c06c4f4494a74ee53f0623c1fe7b92c4b0caf477"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-font-pointer-bootstrap-map.json",
+      "sha256": "c884618de1b7214d94b4ded0fa61ac899006e87832334ab40d50bf1b3a9fcfb2"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "4096cc149207a84f404361a36a2750b18575e32e8d25de71d832a6fd005893ba"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-font-pointer-bootstrap-map.json",
+      "sha256": "e5d0c1308f6600587d05efebd8f1a632f8b97071d2d4a235bba1eaac21ac12d6"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "833cbdb056c461f8bcba9004133c7e13e0e1aad1ce488f1658aeff26665ec4ff"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "fa84e331326a07a3f7a8d74d8f1257e08b1cdd38418774734614638107d96f02"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "0c176eabd6228519c7c590c7f87d7fe5e24eedebc7b44f2c823e04cfc56b7f39"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "78876c3a3f8ad3cd776091ab7c9565bbaefbc8cf069aa46938795145eaf00f98"
+    },
+    {
+      "path": "research/font-pointer-bootstrap-reconstruction.md",
+      "sha256": "e031316940f86286aebc69cadfd2196ce5b9084ac140e9238c8f8d6747482bae"
+    },
+    {
+      "path": "tests/test_font_pointer_bootstrap_reconstruction.py",
+      "sha256": "ace30f069bbb74e810c518d058216ea173445f179decc37d4a53534a0c02c3bd"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
