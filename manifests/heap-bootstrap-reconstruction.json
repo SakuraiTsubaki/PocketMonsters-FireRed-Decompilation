@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "cluster": [
+    "InitHeap",
+    "PutFirstMemBlockHeader",
+    "PutMemBlockHeader"
+  ],
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_heap_catalog.py",
+    "tool_sha256": "4766fc2308fcbcbdf3fe947b5660abe272bdc734d7d7bc2523d9cf4c7bf86dd9"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/malloc.c",
+      "sha256": "3a203f94f6d1d1229435d3f0f4c4b2b374f47fbeee96831357c7fd45e021c57c"
+    },
+    {
+      "path": "analysis/heap-bootstrap-summary.json",
+      "sha256": "cb3e8b357e8a1a20ad60a62967213a6c3fc3f2c6cc5d4aab016021a2344b509b"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "eb1b7ef20229e0dc6cc5b90d8c7c4e4a0fc54ae1b9b01490399487e401ce7d86"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-heap-bootstrap-map.json",
+      "sha256": "662808acdea8cbbf666243ee43f52e7035270049b22180e5a10a151149b495a1"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "5be124c9e34fdceaa5f416fb7a3a2febd6e29c6573986de767d1fcbf78d15179"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-heap-bootstrap-map.json",
+      "sha256": "1b26bf82f1f36d103113be00b6794617b9759d1d75b1ee34118c282700d28ea6"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "63997e2670d3d65ceac70c361e314c92028f110f2dd14a1a5ec62f14998b04dc"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "bdc503364bdbf82229b4a9f90d38a45ad4bc11954a860fc92a49011c59cfb674"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "6a1e7c963e142da31319e87670aaec3905a8e8b2a2629c811a7a8c32bafaca7e"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "af53d9b4447e00aeb8a0980a558945e99a05558b71105a7214571af119840a83"
+    },
+    {
+      "path": "research/heap-bootstrap-reconstruction.md",
+      "sha256": "1c3e5e0b22bad7b7110173324059ee28327b7bd8a2dea1f776720c53c0187b64"
+    },
+    {
+      "path": "tests/test_heap_bootstrap_reconstruction.py",
+      "sha256": "e3fef9cce30452a5e266eb2dc0ee48ea36b980f0af9c2fd30d7eb3d7c1c74999"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
