@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "function": "InitFlashTimer",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_flash_timer_catalog.py",
+    "tool_sha256": "7e99f0d2b6fcb7212625b43e5a31def9b56bcac165ed5d951618ffff270760c7"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/init_flash_timer.c",
+      "sha256": "7b2a18ce2c6d1fa2790e684967e4a1aa80408073f7406640aed5edd28392570b"
+    },
+    {
+      "path": "analysis/init-flash-timer-summary.json",
+      "sha256": "d29e564be68271a35b1a18c659ed9dc414f138a32c3046bc02a0ff918e1562ae"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-init-flash-timer-map.json",
+      "sha256": "5ac7b80d250f60e650954f45337d0927827fda81b3cb5b225efd91c5185ffdc3"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-init-flash-timer-map.json",
+      "sha256": "4f26f275ffa81a77595af276834aaad8d692f060e95ac2020fd29c9b1f0fdc02"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-init-flash-timer-map.json",
+      "sha256": "fd88cf782b90a745b98db5608a3d954f3b89e06bfe3c13047836d1fffe2d4ed0"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-init-flash-timer-map.json",
+      "sha256": "a4531aed6333e969da85ebddc1f3c7b800d23bb8ea1b2d9780816969a88179a0"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-init-flash-timer-map.json",
+      "sha256": "99981affe16c260a6c716e84395be6dad6e1d63f9c69c053c1ef183ce62b1992"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-init-flash-timer-map.json",
+      "sha256": "cc318ea46cc9d2802758d82f7506a2f5d7dee4a32a147378ab8b9e4356b84ca8"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-init-flash-timer-map.json",
+      "sha256": "6a771396eab66813bcb3847d931a169708a9c2215e3deb6755e150fbd2194032"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-init-flash-timer-map.json",
+      "sha256": "adfa683007b7a9a00d81dbc9800cb2d5e063c1374bab3db8d08612520878bc36"
+    },
+    {
+      "path": "research/init-flash-timer-reconstruction.md",
+      "sha256": "fe296e78d3e5f9bb7ec8e10c5da3027aadae0c754992b4058300e61e905ebee9"
+    },
+    {
+      "path": "tests/test_init_flash_timer_reconstruction.py",
+      "sha256": "4103e815fc25e625fa62e49818a73cc5b2dd38295966eaa4c4bcac071e1c97b0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

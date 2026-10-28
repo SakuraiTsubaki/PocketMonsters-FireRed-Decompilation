@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-d-rev0-retail",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "InitFlashTimer",
+    "address": "0x080007D8",
+    "range_end_exclusive": "0x080007E8",
+    "source": "src/init_flash_timer.c",
+    "source_sha256": "7b2a18ce2c6d1fa2790e684967e4a1aa80408073f7406640aed5edd28392570b",
+    "rom_code_range": {
+      "start_offset": 2008,
+      "end_offset_exclusive": 2024,
+      "length": 16,
+      "sha256": "9c47c589cffbc2a24d419fc64a6a9e1f62e46627b8ccd6bbd54c8c5573375a7f",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetFlashTimerIntr",
+        "source": "0x080007E0",
+        "target": "0x081E2BA0"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 8,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_reachable_bytes_sha256": "9c47c589cffbc2a24d419fc64a6a9e1f62e46627b8ccd6bbd54c8c5573375a7f",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "timer_index": 2,
+    "interrupt_table_slot": 7,
+    "pointer_variant": "indirect"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/bpr-d-rev0-retail-check-flash-memory-map.json",
+    "check_flash_memory_map_sha256": "af49fe68fbfbab0bbb11f268aed693561b5575227a630e838355df792a8697a0"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
