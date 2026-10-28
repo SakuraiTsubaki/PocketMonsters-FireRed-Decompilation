@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/check_flash_memory_catalog.py",
+    "tool_sha256": "c6513d8733b80f16f5cceb59dd1735738c9da6db95bcf680e33aa13f56a6c683"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/check_flash_memory.c",
+      "sha256": "d5a99f21f5bd22d8374439df49fb709f9a89e7fb7191ecf23079fe3a6f94e21d"
+    },
+    {
+      "path": "analysis/check-flash-memory-summary.json",
+      "sha256": "48fa1253ad00647f02a8d2b35e7569456500f66b93d5d45c36b1861c22af724e"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-check-flash-memory-map.json",
+      "sha256": "13bf28e300600d3c37eae919910e42861fbedc8c64ce555dc41f154eba9043da"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-check-flash-memory-map.json",
+      "sha256": "8f7c86f07b7a9e6411db9ee5d817da35dcc7894f4cc9b677e686f4e40e2c598e"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-check-flash-memory-map.json",
+      "sha256": "f869dd9510e1ce15de4de4f2c4e6b37908a07e2f38566bcd75bf78ee56f7a327"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-check-flash-memory-map.json",
+      "sha256": "4e408dff585ddcaaac6d76aec5c4547dd0534b685b853c4cdf49570675e7b465"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-check-flash-memory-map.json",
+      "sha256": "af49fe68fbfbab0bbb11f268aed693561b5575227a630e838355df792a8697a0"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-check-flash-memory-map.json",
+      "sha256": "478ae61c364e281a6d1876f0ac8cc87197e0c75f8d2300e3dd9e9dd09349ff37"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-check-flash-memory-map.json",
+      "sha256": "339296417f564e90fde5568015d729094ca41140f65d00d9dead2c6f29d057c6"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-check-flash-memory-map.json",
+      "sha256": "ce758511a299739dce1edee1d439d063d7cf5da0656a1091b59dc507e7e4b071"
+    },
+    {
+      "path": "research/check-flash-memory-reconstruction.md",
+      "sha256": "e79f833b019685e864818e93d9d91cad303733356fa8962d9569933fcb0d2a9c"
+    },
+    {
+      "path": "tests/test_check_flash_memory_reconstruction.py",
+      "sha256": "dd8ad58e5cd5eedbb86f485b0dd80db69ef83ba833cc83f85c6ae57f79297695"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

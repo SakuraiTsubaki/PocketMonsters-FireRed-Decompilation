@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-j-rev1-retail",
+    "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "CheckForFlashMemory",
+    "address": "0x0804B778",
+    "range_end_exclusive": "0x0804B79E",
+    "source": "src/check_flash_memory.c",
+    "source_sha256": "d5a99f21f5bd22d8374439df49fb709f9a89e7fb7191ecf23079fe3a6f94e21d",
+    "rom_code_range": {
+      "start_offset": 309112,
+      "end_offset_exclusive": 309150,
+      "length": 38,
+      "sha256": "2c56e949963a779b5215e8d748798d1aeaa41ffc62244015bbca686ad36e50ce",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "IdentifyFlash",
+        "source": "0x0804B77A",
+        "target": "0x081C2898"
+      },
+      {
+        "name": "InitFlashTimer",
+        "source": "0x0804B78A",
+        "target": "0x080007C4"
+      }
+    ],
+    "control_flow": {
+      "instruction_halfwords": 17,
+      "edge_count": 3,
+      "edge_kinds": {
+        "branch": 1,
+        "conditional-fallthrough": 1,
+        "conditional-taken": 1
+      },
+      "direct_call_count": 2,
+      "return_count": 1,
+      "canonical_reachable_bytes_sha256": "7d59abcc84f5af813aeff051435748f8fae8cded65106a6194ba98638ca5d4fa",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "verified_behavior": {
+    "identify_flash_success_value": 0,
+    "present_flag_on_success": 1,
+    "present_flag_on_failure": 0,
+    "initializes_flash_timer_only_on_success": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpr-j-rev1-retail-agb-main-map.json",
+    "agb_main_map_sha256": "d095a63e8db2536e2ce858ef28da9b51ea72e26ebc934a7282caacbf5f66b5c3"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/load_save.c",
+    "match_kind": "caller identity, call order, branch and state store"
+  },
+  "raw_rom_bytes_included": false
+}
