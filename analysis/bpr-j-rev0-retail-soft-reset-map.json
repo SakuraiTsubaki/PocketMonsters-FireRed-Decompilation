@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpr-j-rev0-retail",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "function": {
+    "name": "SoftReset",
+    "address": "0x081C7AA4",
+    "range_end_exclusive": "0x081C7ABC",
+    "source": "src/soft_reset.s",
+    "source_sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd",
+    "rom_code_range": {
+      "start_offset": 1866404,
+      "end_offset_exclusive": 1866428,
+      "length": 24,
+      "sha256": "13b9651ba27c9de04f893d61d57e71dc6a082222331b7b5fec029b8f7ce6e0d3",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "length": 24,
+    "instruction_halfwords": 7,
+    "literal_pool_bytes": 8,
+    "interrupt_master_enable_address": "0x04000208",
+    "interrupt_master_enable_value": 0,
+    "reset_stack_pointer": "0x03007F00",
+    "register_ram_reset_swi": 1,
+    "soft_reset_swi": 0,
+    "reset_flags_register": "r0",
+    "nonreturning": true
+  },
+  "cross_reference": {
+    "do_soft_reset_map": "analysis/bpr-j-rev0-retail-do-soft-reset-map.json",
+    "do_soft_reset_map_sha256": "82269af0c7adbb15cadf94b94377e2e8223649d4daa0e4a26ce4717d44815b17"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

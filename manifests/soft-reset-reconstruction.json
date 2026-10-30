@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "function": "SoftReset",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/soft_reset_catalog.py",
+    "tool_sha256": "5b8b5947dab5a77687a5012fd79ec2c3a5f83e8c6759e51ea56cb70a4383918b"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/soft_reset.s",
+      "sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd"
+    },
+    {
+      "path": "analysis/soft-reset-summary.json",
+      "sha256": "3fc1ab0ccf124471448480327eec533e16884f12a2a89d8975c5dd0009ec6476"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-soft-reset-map.json",
+      "sha256": "d5f02029a20c0ca0cda115aa16768ee824a22cc476c683f022bf2c7c038aa2ba"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-soft-reset-map.json",
+      "sha256": "531bc4457a21b75f32efe5ef71df1c864410fe6d6ed3f96dc8b69f722392b0de"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-soft-reset-map.json",
+      "sha256": "fd60cc30a4c05c8a78231816df2ef876544c86bf24c08acd91964928b6b71bbe"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-soft-reset-map.json",
+      "sha256": "a0d6883858acf5a4ec35ca9af9d8b814cc80439608b97cf6d7f78e94bd10ceb9"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-soft-reset-map.json",
+      "sha256": "5c76e45e3a3f51071d7d0c17072e0f000a54e8d128bf2ba4c61a0500075afe9a"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-soft-reset-map.json",
+      "sha256": "b94182be23f445529415d13700f814500a60538ac2d43623cb46047cb7bab44f"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-soft-reset-map.json",
+      "sha256": "f2b208f8a081faee16fbe4650e851ce2c33446d654da24cb5874429d6f996b1f"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-soft-reset-map.json",
+      "sha256": "287c7c398422e8044ca0400410bba58509d7a6b93028379991c7816f19a19174"
+    },
+    {
+      "path": "research/soft-reset-reconstruction.md",
+      "sha256": "7767f9d159513b3fbd20f11dbed7c1d95e609338ddf07133a2c4a7ca5d3b4392"
+    },
+    {
+      "path": "tests/test_soft_reset_reconstruction.py",
+      "sha256": "67f37e546a8054b87fe9e4fdd542d1fc0250bb848a2be3e694bf1299600f5f42"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
