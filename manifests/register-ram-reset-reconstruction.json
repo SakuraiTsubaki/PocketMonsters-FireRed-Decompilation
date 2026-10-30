@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "function": "RegisterRamReset",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/register_ram_reset_catalog.py",
+    "tool_sha256": "6d8a5bd06900ab9c97437477759a554b21fb881e946ecaedb54beae8a47974f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/register_ram_reset.s",
+      "sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db"
+    },
+    {
+      "path": "analysis/register-ram-reset-summary.json",
+      "sha256": "7779ae8aff23ec7232de76334bdddd4bb4aaa17bf45297718496a48b83033557"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-register-ram-reset-map.json",
+      "sha256": "7d2a916993e966941504fd7edfe709f2b6e581e92c8ec81c2374f903fbfb35b7"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-register-ram-reset-map.json",
+      "sha256": "e54b6511efb00a9156d42a1f4d0e7c381e75e3eb0e878e3d8437b2795c129463"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-register-ram-reset-map.json",
+      "sha256": "fd7ed3b9042b97ac25e12ede5d362c0bfebde4ae70491e57b8a56b6fe388eed6"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-register-ram-reset-map.json",
+      "sha256": "3a349b95b8d3151dd942862b8110995e14a996a238236dfab9dfc501bbc3c610"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-register-ram-reset-map.json",
+      "sha256": "5af164ae8a757e2f8654c36d7a1fc380f166faf3347a00a25ca2cb9eb89a487e"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-register-ram-reset-map.json",
+      "sha256": "68da284302a6c292756421b527e87c949da91932507187ed237c8670d3bbfdb0"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-register-ram-reset-map.json",
+      "sha256": "8a41f1c386218cd12533e50812be68d64d8402b99a127adb4b24c9e50b9c5d70"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-register-ram-reset-map.json",
+      "sha256": "40bfc4ac676b44623a1ba82797e13b0f32cedc8b0aa2bc4cf39cc962f033fac1"
+    },
+    {
+      "path": "research/register-ram-reset-reconstruction.md",
+      "sha256": "c43ac81502b82561b17346153823a340742cb1af40b8fc911ce3007d1893fd0e"
+    },
+    {
+      "path": "tests/test_register_ram_reset_reconstruction.py",
+      "sha256": "a2e3a5e9bd9fb8f26162137793cb62523a8a8e7cb3f3a39dee607813805612ad"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
