@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/header_logo_catalog.py",
+    "tool_sha256": "55641a0145cf323334c26b9aae9f4dc344be0043b2c2e057bd0a2dc470dae212"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/header-logo-summary.json",
+      "sha256": "3c485015bd22976bcf96243e3b433d8bdc3ac1e58c43a0928dfeaa8edee2f4bf"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-header-logo.json",
+      "sha256": "884434ed72fcd9cbaec6dae016aea223cc36c9176bb362b3c9a790cb4bdda830"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-header-logo.json",
+      "sha256": "0538fa17f0c8933cf00fc135aa8becae74315804fb5e42c0ac798a37adbcf6b1"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-header-logo.json",
+      "sha256": "f4e04ac36122f45042e852e401bb378274c43184de378c6b155ebe88730f1ceb"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-header-logo.json",
+      "sha256": "69c50683bd20a260399d52b2d4f3d8ac0717d01b72e11f6fd553fc14756ab81f"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-header-logo.json",
+      "sha256": "9f2e5c993fc67cd531ee2fb84ec5a94b904f1d0112856968efe0985d9180345d"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-header-logo.json",
+      "sha256": "90b87d7530cfd2a8a0b2601c1fbbf82d58c4f06c748eccf28b956962092b82f4"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-header-logo.json",
+      "sha256": "dbe7f2520072bace336c0f21422fb5262c2507f511d293e61de29c8944107003"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-header-logo.json",
+      "sha256": "ebc5b3f7dfb058ab0608ebb099a6e8ebfee6e5aeab9580d028511691dab66a44"
+    },
+    {
+      "path": "research/header-logo-reconstruction.md",
+      "sha256": "729232354005e18f7537b287eace04049c419494fb413d03e0d7e38e259cb4d5"
+    },
+    {
+      "path": "tests/test_header_logo_reconstruction.py",
+      "sha256": "a6893c6ba383037df9e2889609526c2930d5e37789be565586493fd6342b1f30"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
