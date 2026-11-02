@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/call_via_catalog.py",
+    "tool_sha256": "e30748f1d1af711d3815d8e1dd50ab9d242d8b340cf2a6cef8d59f753719c5be"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-summary.json",
+      "sha256": "cb1c78c01bb20db94b5894f2ebd570d8490daf6d41d885976e3589c4ddbccb18"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-call-via-map.json",
+      "sha256": "54e50d5fa14579ab460001fcf5ac4141215bb9b5f9ef92c7dbb03d698d4320bd"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-call-via-map.json",
+      "sha256": "81356b5f2e0f0c5e8ab8ccb6ec25f8903cde9ccee047f39ccc2152da7b399ab1"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-call-via-map.json",
+      "sha256": "f4e9777c94ff5043704c8456fc0f79c500d73680ae0e5a2d9a34bb96b8c82369"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-call-via-map.json",
+      "sha256": "39f8141266964f9e6d49c2a9b2fe38326493500f20a44fa3529e3c0e4246b342"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-call-via-map.json",
+      "sha256": "cb7267b4892baf05f87873bb02abe10a25b4e2c77f02afbe5cf6f651c1dae069"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-call-via-map.json",
+      "sha256": "fd8ded8eabad9d53a19682aefddf535685a443bc59dd042899bb16e2dcf2c94e"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-call-via-map.json",
+      "sha256": "b1caa251c1c2be0f4b03eb5bdcdf9bb507826c73bbebfbdcf39cfc9bbb3ecb32"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-call-via-map.json",
+      "sha256": "8b414dbeb0d4d0713fbe22e879fde9046ad37fc0a704aebb35e83e05d62f6eba"
+    },
+    {
+      "path": "research/call-via-reconstruction.md",
+      "sha256": "686b88e2af30dfae65ce02686baf24455b1595691164114680764ebc1a81f982"
+    },
+    {
+      "path": "tests/test_call_via_reconstruction.py",
+      "sha256": "8121799fd56b724c4a14e7ed905ff8d1d4b975cbf783524667803641c11dfd3b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
