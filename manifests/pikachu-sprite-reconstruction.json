@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "species": {
+    "id": 25,
+    "name": "pikachu"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "a60ed06642420c6523566fcb00edfe6592f65041744b416a74befb1bf175a6e2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/pikachu_species_sprite_tables.asm",
+      "sha256": "9cc06fd39160a17e045ef107a967f00ae44f8d24427ec3b4097d1468601ca6a3"
+    },
+    {
+      "path": "analysis/pikachu-sprite-set-summary.json",
+      "sha256": "ce661e94fdc4e632c81832c3f4ba407bb60fdd816a4648dee408e8d5ac4dc1ff"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "b9fee05a449fada175f1659f44501c066f8c4578d69d97c7c32950266de289b4"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-pikachu-sprite-set.json",
+      "sha256": "4aee4d52734db74170c491b3da4c4137a522c09f228c990e56bca5e0190744e5"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "24f6dad1eaa996c0eab4eb5c8fe9f5bd61ee13d711d56f932e7f69dd4d742670"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-pikachu-sprite-set.json",
+      "sha256": "04e0009db855896221e996fb323d5831f7b69660cfa893d1a945b836b18b6d2c"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "95fa3e9dd8c99149b9ecd48c3c6aeacf7d754823d040a508dd0e4ed8d1718930"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "45e4ac2f6497abcc1acb776b21f3f34952e9e9557d903bb8cb6fe26c0c505fcd"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "d9a9de2d6af6965d0cae4d734d59dacb2c589aa04b370157c5a37e4ace763234"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-pikachu-sprite-set.json",
+      "sha256": "de8b3a283b8c9e364d390b6f1941bf0d9dbe040b2c3dead11041bc799d1fe511"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-j-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-j-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-j-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-j-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-j-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-j-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-e-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-e-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-e-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-e-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-e-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-e-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-d-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-d-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-d-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-f-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-f-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-f-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-i-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-i-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-i-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpr-s-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpr-s-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpr-s-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "research/pikachu-sprite-set.md",
+      "sha256": "7a4070a0e52421c63de49307b69ecc678d2521ebe78428faa194099698652f4b"
+    },
+    {
+      "path": "tests/test_pikachu_sprite_reconstruction.py",
+      "sha256": "392dade119fbee0e595791f922e64634734e3f80131271fc3f1d225b192498ee"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
