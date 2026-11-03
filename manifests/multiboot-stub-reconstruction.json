@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "function": "MultiBoot",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/multiboot_stub_catalog.py",
+    "tool_sha256": "4c737c4b6c11f24558237a076c451be64ad803f99fadec19c09f28459e5e4924"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/multiboot_bios_stub.s",
+      "sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683"
+    },
+    {
+      "path": "analysis/multiboot-stub-summary.json",
+      "sha256": "356c1b9248f92eeddf6a29befc3bd6244d45a0c6a3da5ac484b56cd6eb8b400d"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-multiboot-stub-map.json",
+      "sha256": "5ba182caedad9f25866fabff8656276b0ed44ec1b1b24df83eac386e8d2912b0"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-multiboot-stub-map.json",
+      "sha256": "ce3295cdb824ccac3199cf451a1f8d868f79bf1454dcb1f33cc030dfa0e191c9"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-multiboot-stub-map.json",
+      "sha256": "3fd3c0d07557f5bbf64c4a9204c7f6bd0e621c165b393ccafc990417b4a644eb"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-multiboot-stub-map.json",
+      "sha256": "254f848034291c1e8a24be62d1f1a0d0e10298b6733f73406aa5dbeec4d4d77a"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-multiboot-stub-map.json",
+      "sha256": "45afd78b5df5a537dd56f66f22b17b77768097ed522f50b7d3e8c049cb1f463f"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-multiboot-stub-map.json",
+      "sha256": "449a8f5aafce936b4701c3eed2ecde125378aa1c51d95d5ecf936c7c801a264a"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-multiboot-stub-map.json",
+      "sha256": "26da890f531764039e0c0fff3ba336f95004f2c7152a9256bd420738972575ae"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-multiboot-stub-map.json",
+      "sha256": "6ff2ff59a1f7bd6dcc18510c9467ad37ae7b7eea396a9a2a2d098eff9365b4cc"
+    },
+    {
+      "path": "research/multiboot-stub-reconstruction.md",
+      "sha256": "f1c33548e86eae0bb6abd981692b97c316d7c990187efcd3934b0f7e64a938c2"
+    },
+    {
+      "path": "tests/test_multiboot_stub_catalog.py",
+      "sha256": "83fe0ce5e7539fe171f0def44b4105526d7a6dd852bacc3f13d38000f5b77c04"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
