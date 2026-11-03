@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/arctan2_cpuset_stub_catalog.py",
+    "tool_sha256": "71b90c98866abb22f4c452dffaa5389d9baf1c4e43949e8994d1b927715553b2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stub-summary.json",
+      "sha256": "f4f4ba01b65976b086bb28e160d9435c7a97938b0ce1c62ca801473e26ae6f89"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "5c67315cf0bd69f5c606b4d37fb2e2b58b12d9c298fb7d6d6c120a97ffde811c"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "6cfa5ececfda9ed5e4d4a492824176a537afb60cfb8af78e12cf8dbdf960ca03"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "9fa88de15f16d2db8c9c5b5374dfd44fe1ae622fcf78ace58bb1bb0bd961309e"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "45b5a1f275db98a0b588c448087dd4841de4ed5c590c4aa74a4ce8d5ef84f693"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "32e6a2be03d04fb182a070e0885278816b68b7b95fd1af87ee47290916aacafe"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "30ef05a07a3e5e5202d0a546f3c90514885635f716dc5b4a142f0182094cbf87"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "21f324c28e1f3b8bfbcb647f9cbbbac41cb60bcb48f1d9b3f369f5a474c91594"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "3fe8221978f6b97c67aa9d8003817ad80172b3069b4c7554c4b8bd87fb409ede"
+    },
+    {
+      "path": "research/arctan2-cpuset-stub-reconstruction.md",
+      "sha256": "4966bf33bc4d850d315261b1c65540339e7c17f7cd8681677f46b432c062a5fb"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stub_reconstruction.py",
+      "sha256": "4ec0ea2a7874f67709d31f763f524c0345a76bb7277f746a173619ac376be2a5"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
