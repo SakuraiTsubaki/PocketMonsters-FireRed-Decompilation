@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/affine_copy_bios_stub_catalog.py",
+    "tool_sha256": "8ffc37ffdc5fbbf7b11c55cb8bcd88075c8d0eaa34c3fdeb0565300a20201e79"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stub-summary.json",
+      "sha256": "88a1cf5dae8ec52d49b098fa7076fd771112929bfd2bd4693a8c4fc1af66b5df"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "ac97fd9d7d6d7cab000dc6db64a04b4c6c38244384c5f85873910c55aa8f5fb8"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "98a54ec5ae207896fbf0adaba8ac100e4746ec703eb08a42d0af90e7d02aee76"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "45a02d647bde89eee9319ddfe7b86c0c9b11deaf8fc5d46fcf2d4d08351d72d7"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "ba2ca0a963af4523a593d5898497ec26477a39361073518006882ab43c11af2b"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "5ce9150b61d9696fc93fa957ed8a93e66429fb1e4b2bb6df1218ff237a8dbf14"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "97aa74be091d006642151458ef8d1ae02c03e3cd06640059dbefd0c17e132a8d"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "ce67ca508f0fd8c95cb060a06925a01cfcae7cc22c7f0823d214ae8c0120bf2c"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "22f5bb5a16d0fcaee0bb22d00111f3282050aa0e3af547ac07a4c15ee9ebab2f"
+    },
+    {
+      "path": "research/affine-copy-bios-stub-reconstruction.md",
+      "sha256": "7b1b2b62ade13b896859b05effd00487b1cd3a884b7c936673dad5ad8a315939"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stub_reconstruction.py",
+      "sha256": "ffce9cc67be77d74b38d9ea317e459a4916345123a4df168bf757d81f3e4ff51"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
