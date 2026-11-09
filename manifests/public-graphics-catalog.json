@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "FireRed",
-  "asset_count": 121,
+  "asset_count": 169,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/catalog_public_graphics.py",
@@ -85,6 +85,30 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-j-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-bpr-j-rev1-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-j-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-j-rev1-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-j-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-j-rev1-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-j-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -131,6 +155,30 @@
     {
       "path": "graphics/pokemon/squirtle-front-bpr-j-rev1-retail.png",
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-j-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-j-rev1-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-j-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-j-rev1-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-j-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-j-rev1-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpr-e-rev0-retail.png",
@@ -205,6 +253,30 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-e-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-bpr-e-rev1-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-e-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-e-rev1-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-e-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-e-rev1-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-e-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -253,6 +325,30 @@
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
     },
     {
+      "path": "graphics/pokemon/venusaur-back-bpr-e-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-e-rev1-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-e-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-e-rev1-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-e-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-e-rev1-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-bpr-d-rev0-retail.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -289,6 +385,18 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-d-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-d-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-d-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-d-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -311,6 +419,18 @@
     {
       "path": "graphics/pokemon/squirtle-front-bpr-d-rev0-retail.png",
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-d-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-d-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-d-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpr-f-rev0-retail.png",
@@ -349,6 +469,18 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-f-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-f-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-f-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-f-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -371,6 +503,18 @@
     {
       "path": "graphics/pokemon/squirtle-front-bpr-f-rev0-retail.png",
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-f-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-f-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-f-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpr-i-rev0-retail.png",
@@ -409,6 +553,18 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-i-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-i-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-i-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-i-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -431,6 +587,18 @@
     {
       "path": "graphics/pokemon/squirtle-front-bpr-i-rev0-retail.png",
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-i-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-i-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-i-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpr-s-rev0-retail.png",
@@ -469,6 +637,18 @@
       "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-bpr-s-rev0-retail.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-bpr-s-rev0-retail.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-bpr-s-rev0-retail.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-bpr-s-rev0-retail.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -491,20 +671,32 @@
     {
       "path": "graphics/pokemon/squirtle-front-bpr-s-rev0-retail.png",
       "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpr-s-rev0-retail.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpr-s-rev0-retail.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpr-s-rev0-retail.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3"
     }
   ],
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "70515ad6b51016b77e715985a5182a3c711cf63369da0c31cc916735cbc65a23"
+      "sha256": "63937323e7a3a3ef3e1e01f6693973765262a49a7a73c00d0b3ad2c02848b652"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "32eb21634ae1500ab169d93d9c56adbf65bb869791689a29a77a2e6a4aa05d41"
+      "sha256": "d3227c3a61a7d4a4b07d7b758f33d918599d4b9973777684bc05d83e0faec36a"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "9ecf2fa628087f8c07b0839c85117cf38a85009ea595cf9b6aa2c84e3bee1238"
+      "sha256": "7f19059bfafda3eeeb61618e01dc3aee8dcc10237af7a0de2d483b0db4e66e22"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",
