@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "FireRed",
+  "function": "Div",
+  "family_profile": "frlg-language-variant",
+  "origin_reference": "bpr-j-rev0-retail",
+  "origin_availability": "absent",
+  "release_count": 8,
+  "present_release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/frlg_div_variant_catalog.py",
+    "tool_sha256": "068bd20c7416f368661541e83635238343fb17a207cad9bce719012c290015b8"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "c5ab467767b0df7c2f6fe779b022bbdbba63bfede2b53a072bb2f1812501ad9a"
+    },
+    {
+      "path": "src/div_bios_stub.s",
+      "sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0"
+    },
+    {
+      "path": "analysis/div-bios-stub-variant-summary.json",
+      "sha256": "704909f07bbcefa01c0b5958eae1d26c1cc4fa740c775b0bbd3fc5894c8ea78b"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "85767932d684a090e11b857709e29a96e149c284bd9125d8374d5ad840e9045b"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-div-bios-stub-variant-map.json",
+      "sha256": "f8fe3a591a4776ff28e3640392812b8292aa4166dfe1071fd7facf40f48dde4c"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "3943725a3fa27c5888df534ff0d36cb391c8646c7b0369fe2505628b8cc7244f"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-div-bios-stub-variant-map.json",
+      "sha256": "9a7c0c06a821208858b2bc31a0bd391a23b4e1b793933945ce86e93d9ae41a02"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "446ab35b83d9a879aa6e42653a367c1107dc382efaa5d81668f68bad1c5df37d"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "c48af79d76e48ff20b74bd09dac01fa7e7774b156e15442a1f368ce0368285ef"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "176b0c7af629eb6831600d3c6184841d86e797c828b67cb5253d23c40ea859c6"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-div-bios-stub-variant-map.json",
+      "sha256": "cdaf0f4d0fd32433d48d5dbfefe0c1a470f5df74eecb40f6d253775687da780f"
+    },
+    {
+      "path": "research/div-bios-stub-variant-reconstruction.md",
+      "sha256": "6dd0030cfc9ff2911b12181c62e38332e75174a96207b17fd6f2549e69e059e0"
+    },
+    {
+      "path": "tests/test_div_bios_stub_variant_catalog.py",
+      "sha256": "abc05a8418cb6d668ae2085321b780ff5a493f24f956d0d84dd36f9315aa9f51"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
